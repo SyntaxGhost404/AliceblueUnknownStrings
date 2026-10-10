@@ -1,5 +1,6 @@
 import React, { createContext, useCallback, useEffect, useRef, useState } from 'react';
 import moment from 'moment';
+import { Platform } from 'react-native';
 import { createSound, GameSound, playSound } from '../audio/sound';
 import { deleteItem, retrieveItem, storeItem } from './storage';
 import { getDate, getTime } from '../utils/date';
@@ -557,6 +558,11 @@ function useGlobalState() {
     [deliverNode, later, pushNotification, promote],
   );
   triggerActionRef.current = triggerAction;
+
+  // Web preview only: lets the screenshot harness drive the engine (open apps, overlays, ...).
+  useEffect(() => {
+    if (Platform.OS === 'web') (globalThis as any).__game = { triggerAction, promote, setSession, setLocked, updateAppState };
+  });
 
   // Every clue gathered: run the gather action (usually a promotion).
   useEffect(() => {
