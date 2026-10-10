@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppProps } from './types';
 import { makePlaceholderApp } from './Placeholder';
+import Messages from './messages/Messages';
 
 const appIds = [
   'messages',
@@ -22,8 +23,9 @@ const appIds = [
 ];
 
 /** Phone apps by id. Each receives AppProps from the phone navigator. */
-const apps: Record<string, React.ComponentType<AppProps>> = Object.fromEntries(
-  appIds.map(id => [id, makePlaceholderApp(id)]),
-);
+const apps: Record<string, React.ComponentType<AppProps>> = {
+  ...Object.fromEntries(appIds.map(id => [id, makePlaceholderApp(id)])),
+  messages: Messages,
+};
 
 export default apps;

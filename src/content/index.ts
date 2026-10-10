@@ -139,6 +139,19 @@ export function getCallScript(phone: PhoneName, contact: string | undefined, ses
 /** Passcodes for locked phones (mock content). */
 export const passcodes: Partial<Record<PhoneName, string>> = { herphone: '12345' };
 
+type SessionPoint = [number, number, number];
+
+const cmp = (a: Session, b: SessionPoint) =>
+  a.episode !== b[0] ? a.episode - b[0] : a.objective !== b[1] ? a.objective - b[1] : a.checkpoint - b[2];
+
+/** Whether the story is between `start` and `end` (both inclusive; either may be omitted). */
+export function isActiveInSession(session: Session | null, start?: SessionPoint, end?: SessionPoint) {
+  if (!session) return false;
+  if (start && cmp(session, start) < 0) return false;
+  if (end && cmp(session, end) > 0) return false;
+  return true;
+}
+
 /** Share of all checkpoints completed, as shown on saved-progress prompts. */
 export function progressPercentage(session: Session) {
   let total = 0;

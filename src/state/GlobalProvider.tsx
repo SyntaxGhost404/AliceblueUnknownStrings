@@ -120,6 +120,9 @@ function useGlobalState() {
   const [chat, setChat] = useState<ChatState>({ typing: {}, options: {}, unread: {} });
 
   const chatFocused = useRef<string | null>(null);
+  // Chat timestamps follow the in-game clock, not the device clock.
+  const timeRef = useRef(time);
+  timeRef.current = time;
   const soundsRef = useRef(soundsEnabled);
   soundsRef.current = soundsEnabled;
   const sessionRef = useRef(session);
@@ -308,7 +311,7 @@ function useGlobalState() {
             text: node.text,
             type: fromPlayer ? 1 : 0,
             sender: node.sender,
-            time: nowStamp(),
+            time: timeRef.current || nowStamp(),
             gather: node.gather,
           };
           appendMessage(device, chatName, message);
@@ -357,7 +360,7 @@ function useGlobalState() {
           transformedId: `${sessionId(sessionRef.current)}-${pending.nodeId}-${index}`,
           text: option.text,
           type: 1,
-          time: nowStamp(),
+          time: timeRef.current || nowStamp(),
         });
         if (soundsRef.current) playSound('message2.mp3');
       }

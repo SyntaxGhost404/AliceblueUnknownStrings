@@ -18,7 +18,7 @@ const appImages: Record<string, Record<string, ImageSourcePropType>> = {
 };
 
 export function getAppImage(app: string, key: string): ImageSourcePropType | undefined {
-  return appImages[app]?.[key];
+  return appImages[app]?.[key] ?? (assets as any)[app]?.[key];
 }
 
 export function getContactImage(name: string | undefined): ImageSourcePropType | undefined {

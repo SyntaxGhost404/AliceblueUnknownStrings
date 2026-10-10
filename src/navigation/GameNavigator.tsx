@@ -27,7 +27,8 @@ const screens = I18nManager.isRTL ? ['herphone', 'myphone', 'suspectboard'] : ['
  * plus the overlays that sit on top of all three.
  */
 function GameNavigator() {
-  const { session, toast, hint, swipeEnabled, soundsEnabled, gameVisible, setGameVisible } = useContext(GlobalContext);
+  const { session, toast, hint, swipeEnabled, setSwipeEnabled, soundsEnabled, gameVisible, setGameVisible, timeTravel } =
+    useContext(GlobalContext);
   const { getMainStoryEvent } = useContext(ContentContext);
   const [hideGame, setHideGame] = useState(true);
   const [showNavigator, setHideNavigatorState] = useState(true);
@@ -58,6 +59,11 @@ function GameNavigator() {
       };
     }, [setGameVisible]),
   );
+
+  // Swiping between the desk and the phones is allowed except while time-travelling.
+  useEffect(() => {
+    setSwipeEnabled(!timeTravel);
+  }, [timeTravel, setSwipeEnabled]);
 
   // A new objective chimes and drops its banner in.
   const lastObjective = useRef<string | null>(null);
