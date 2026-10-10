@@ -1,0 +1,28 @@
+{
+  "folders": [
+    "animations", "apps", "archive", "characters", "connect", "diary", "files", "gallery", "hostcall",
+    "lockscreen", "mail", "messages", "notifications", "quickdeduce", "safemode", "settings", "socials",
+    "splash", "suspectboard", "symmetry", "videocall"
+  ],
+  "files": [
+    "src/assets/title.png",
+    "src/assets/title-low.png",
+    "src/assets/titletext.png",
+    "src/assets/videos/glitch.mp4"
+  ],
+  "sounds": [
+    "alert", "bubble", "button", "button2", "button3", "chime", "clock", "defaultvoicemail1", "dialpad",
+    "dialtone", "disconnect", "doublebleep", "error", "error2", "glitch", "hangup", "keytype", "lexin",
+    "longbeep", "message", "message2", "message4", "modernclick", "notification", "objective", "paper",
+    "papersatisfying", "puzzleopen", "recovery", "ringtone", "scribble", "shortbeep", "shortbeep2",
+    "shortglitch", "shortslide", "snap", "success", "tone", "transition", "underline", "underlinerev",
+    "unlock", "whoosh1", "whoosh2"
+  ],
+  "fonts": [
+    "Aldenburg.ttf", "Caveat-Bold.ttf", "Caveat-Regular.ttf", "Coiny-Regular.ttf", "DotGothic16-Regular.ttf",
+    "Flamenco-Regular.ttf", "GrapeNuts-Regular.ttf", "IndieFlower-Regular.ttf", "JosefinSans-Bold.ttf",
+    "JosefinSans-Medium.ttf", "JosefinSans-Regular.ttf", "JosefinSans-SemiBold.ttf", "Quantico-Bold.ttf",
+    "Quantico-Regular.ttf", "Quicksand-Bold.ttf", "Quicksand-Light.ttf", "Quicksand-Medium.ttf",
+    "Quicksand-Regular.ttf", "Quicksand-SemiBold.ttf"
+  ]
+}

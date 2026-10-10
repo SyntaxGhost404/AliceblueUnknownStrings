@@ -1,0 +1,4862 @@
+[
+ {
+  "path": "src/assets/splash/techy.png",
+  "w": 518.0,
+  "h": 242.0
+ },
+ {
+  "path": "src/assets/splash/o.png",
+  "w": 105.0,
+  "h": 105.0
+ },
+ {
+  "path": "src/assets/splash/nic.png",
+  "w": 293.0,
+  "h": 242.0
+ },
+ {
+  "path": "src/assets/splash/betterexp.png",
+  "w": 1219.0,
+  "h": 835.0
+ },
+ {
+  "path": "src/assets/socials/google.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/socials/apple.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/title.png",
+  "w": 720.0,
+  "h": 692.0
+ },
+ {
+  "path": "src/assets/title-low.png",
+  "w": 720.0,
+  "h": 692.0
+ },
+ {
+  "path": "src/assets/titletext.png",
+  "w": 970.0,
+  "h": 704.0
+ },
+ {
+  "path": "src/assets/lockscreen/zoey.png",
+  "w": 900.0,
+  "h": 1600.0
+ },
+ {
+  "path": "src/assets/notifications/diamond.png",
+  "w": 349.0,
+  "h": 349.0
+ },
+ {
+  "path": "src/assets/notifications/recovery-white.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/desk.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/zoey.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/characters/unknown.png",
+  "w": 445.0,
+  "h": 445.0
+ },
+ {
+  "path": "src/assets/characters/zoeysdad.png",
+  "w": 523.0,
+  "h": 539.0
+ },
+ {
+  "path": "src/assets/characters/zoeysmom.png",
+  "w": 2424.0,
+  "h": 2423.0
+ },
+ {
+  "path": "src/assets/characters/wife.png",
+  "w": 385.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/colleague.png",
+  "w": 458.0,
+  "h": 523.0
+ },
+ {
+  "path": "src/assets/characters/betty.png",
+  "w": 922.0,
+  "h": 929.0
+ },
+ {
+  "path": "src/assets/characters/valeria.png",
+  "w": 1048.0,
+  "h": 1050.0
+ },
+ {
+  "path": "src/assets/characters/lily.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/zac.png",
+  "w": 547.0,
+  "h": 591.0
+ },
+ {
+  "path": "src/assets/characters/brad.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/kevin.png",
+  "w": 444.0,
+  "h": 543.0
+ },
+ {
+  "path": "src/assets/characters/rajan.png",
+  "w": 588.0,
+  "h": 605.0
+ },
+ {
+  "path": "src/assets/characters/wade.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/jim.png",
+  "w": 769.0,
+  "h": 742.0
+ },
+ {
+  "path": "src/assets/characters/mike.png",
+  "w": 945.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/characters/kyle.png",
+  "w": 403.0,
+  "h": 540.0
+ },
+ {
+  "path": "src/assets/characters/techyonic.jpg",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/gerard.png",
+  "w": 954.0,
+  "h": 954.0
+ },
+ {
+  "path": "src/assets/characters/cameron.png",
+  "w": 954.0,
+  "h": 954.0
+ },
+ {
+  "path": "src/assets/characters/matt.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/vanessa.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/ethan.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/sarah.png",
+  "w": 996.0,
+  "h": 996.0
+ },
+ {
+  "path": "src/assets/characters/andrew.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/riverstonehigh.png",
+  "w": 443.0,
+  "h": 411.0
+ },
+ {
+  "path": "src/assets/characters/julia.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/fb1ralph.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/fb1wife.png",
+  "w": 512.0,
+  "h": 531.0
+ },
+ {
+  "path": "src/assets/characters/fb1vernon.png",
+  "w": 469.0,
+  "h": 469.0
+ },
+ {
+  "path": "src/assets/characters/fb1colleague.png",
+  "w": 1050.0,
+  "h": 1100.0
+ },
+ {
+  "path": "src/assets/characters/helen.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/reggie.png",
+  "w": 380.0,
+  "h": 371.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-melanie.png",
+  "w": 1362.0,
+  "h": 1319.0
+ },
+ {
+  "path": "src/assets/characters/trey.png",
+  "w": 512.0,
+  "h": 537.0
+ },
+ {
+  "path": "src/assets/characters/counselor.png",
+  "w": 996.0,
+  "h": 996.0
+ },
+ {
+  "path": "src/assets/characters/bella.png",
+  "w": 513.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/characters/federico.png",
+  "w": 263.0,
+  "h": 263.0
+ },
+ {
+  "path": "src/assets/characters/daniel.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/mabe.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/rachel.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/gregory.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/declan.png",
+  "w": 750.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/characters/elise.png",
+  "w": 500.0,
+  "h": 500.0
+ },
+ {
+  "path": "src/assets/characters/brian.png",
+  "w": 513.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/characters/fb2avery.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/characters/fb2megan.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/characters/fb2hailey.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/characters/benji.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/mario.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/characters/trevor.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/riverstonecampsite.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/characters/maggie.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/riverstoneforensics.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/richard.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/shane.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/damon.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/ava.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/max.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/crossbar.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/characters/jerry.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/gallery.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/gallery_small.png",
+  "w": 320.0,
+  "h": 248.0
+ },
+ {
+  "path": "src/assets/apps/calculator.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/calculator_small.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/messages.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/messages_small.png",
+  "w": 254.0,
+  "h": 254.0
+ },
+ {
+  "path": "src/assets/apps/settings.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/settings_small.png",
+  "w": 269.0,
+  "h": 291.0
+ },
+ {
+  "path": "src/assets/apps/calendar.png",
+  "w": 512.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/apps/calendar_small.png",
+  "w": 380.0,
+  "h": 354.0
+ },
+ {
+  "path": "src/assets/apps/mail.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/mail_small.png",
+  "w": 261.0,
+  "h": 170.0
+ },
+ {
+  "path": "src/assets/apps/notes.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/notes_small.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/archive.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/archive_small.png",
+  "w": 230.0,
+  "h": 230.0
+ },
+ {
+  "path": "src/assets/apps/call.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/call_small.png",
+  "w": 240.0,
+  "h": 240.0
+ },
+ {
+  "path": "src/assets/apps/pixabowl.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/pixabowl_small.png",
+  "w": 232.0,
+  "h": 232.0
+ },
+ {
+  "path": "src/assets/apps/browser.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/browser_small.png",
+  "w": 230.0,
+  "h": 230.0
+ },
+ {
+  "path": "src/assets/apps/diary.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/diary_small.png",
+  "w": 240.0,
+  "h": 240.0
+ },
+ {
+  "path": "src/assets/apps/files.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/files_small.png",
+  "w": 230.0,
+  "h": 230.0
+ },
+ {
+  "path": "src/assets/apps/sidetrails.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/sidetrails_small.png",
+  "w": 96.0,
+  "h": 96.0
+ },
+ {
+  "path": "src/assets/apps/symmetry.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/apps/symmetry_small.png",
+  "w": 249.0,
+  "h": 223.0
+ },
+ {
+  "path": "src/assets/suspectboard/rememberlist.png",
+  "w": 614.0,
+  "h": 922.0
+ },
+ {
+  "path": "src/assets/suspectboard/photoframe.png",
+  "w": 655.0,
+  "h": 772.0
+ },
+ {
+  "path": "src/assets/suspectboard/paper1.png",
+  "w": 238.0,
+  "h": 171.0
+ },
+ {
+  "path": "src/assets/suspectboard/paper2.png",
+  "w": 229.0,
+  "h": 178.0
+ },
+ {
+  "path": "src/assets/suspectboard/paper3.png",
+  "w": 228.0,
+  "h": 148.0
+ },
+ {
+  "path": "src/assets/suspectboard/paperball1.png",
+  "w": 72.0,
+  "h": 74.0
+ },
+ {
+  "path": "src/assets/suspectboard/paperball2.png",
+  "w": 82.0,
+  "h": 70.0
+ },
+ {
+  "path": "src/assets/suspectboard/paperball3.png",
+  "w": 80.0,
+  "h": 60.0
+ },
+ {
+  "path": "src/assets/suspectboard/penholder.png",
+  "w": 150.0,
+  "h": 270.0
+ },
+ {
+  "path": "src/assets/suspectboard/myphone.png",
+  "w": 162.0,
+  "h": 112.0
+ },
+ {
+  "path": "src/assets/suspectboard/myphone2.png",
+  "w": 162.0,
+  "h": 112.0
+ },
+ {
+  "path": "src/assets/suspectboard/herphone.png",
+  "w": 172.0,
+  "h": 120.0
+ },
+ {
+  "path": "src/assets/suspectboard/herphone-big.png",
+  "w": 907.0,
+  "h": 1621.0
+ },
+ {
+  "path": "src/assets/suspectboard/cup.png",
+  "w": 248.0,
+  "h": 242.0
+ },
+ {
+  "path": "src/assets/suspectboard/stapler.png",
+  "w": 91.0,
+  "h": 71.0
+ },
+ {
+  "path": "src/assets/suspectboard/casereport.png",
+  "w": 328.0,
+  "h": 246.0
+ },
+ {
+  "path": "src/assets/suspectboard/casereport-big.png",
+  "w": 1230.0,
+  "h": 1704.0
+ },
+ {
+  "path": "src/assets/suspectboard/evidencebox.png",
+  "w": 615.0,
+  "h": 446.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoey.png",
+  "w": 768.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/family.png",
+  "w": 768.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/studentid.png",
+  "w": 769.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/parcel.png",
+  "w": 871.0,
+  "h": 780.0
+ },
+ {
+  "path": "src/assets/suspectboard/unknown.png",
+  "w": 753.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/lily.png",
+  "w": 753.0,
+  "h": 870.0
+ },
+ {
+  "path": "src/assets/suspectboard/betty.png",
+  "w": 754.0,
+  "h": 870.0
+ },
+ {
+  "path": "src/assets/suspectboard/mike.png",
+  "w": 754.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/kyle.png",
+  "w": 753.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/brad.png",
+  "w": 750.0,
+  "h": 867.0
+ },
+ {
+  "path": "src/assets/suspectboard/kevin.png",
+  "w": 753.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/brownenvelope.png",
+  "w": 472.0,
+  "h": 160.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeycarnote.png",
+  "w": 671.0,
+  "h": 931.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeysbicycle.png",
+  "w": 754.0,
+  "h": 871.0
+ },
+ {
+  "path": "src/assets/suspectboard/whiteenvelope.png",
+  "w": 472.0,
+  "h": 160.0
+ },
+ {
+  "path": "src/assets/suspectboard/crumpledpaper.png",
+  "w": 830.0,
+  "h": 864.0
+ },
+ {
+  "path": "src/assets/suspectboard/oldelm.png",
+  "w": 813.0,
+  "h": 921.0
+ },
+ {
+  "path": "src/assets/suspectboard/bicyclebox.png",
+  "w": 898.0,
+  "h": 805.0
+ },
+ {
+  "path": "src/assets/bicyclebox/bicycleboxopen.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/suspectboard/cultsymbol.png",
+  "w": 147.0,
+  "h": 122.0
+ },
+ {
+  "path": "src/assets/suspectboard/therapyreport.png",
+  "w": 363.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/suspectboard/therapyreportclosed.png",
+  "w": 791.0,
+  "h": 962.0
+ },
+ {
+  "path": "src/assets/suspectboard/newspaperkevin.png",
+  "w": 489.0,
+  "h": 210.0
+ },
+ {
+  "path": "src/assets/suspectboard/newspaperkevin-big.png",
+  "w": 1194.0,
+  "h": 2036.0
+ },
+ {
+  "path": "src/assets/suspectboard/blueenvelope.png",
+  "w": 472.0,
+  "h": 160.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeyslocker.png",
+  "w": 753.0,
+  "h": 870.0
+ },
+ {
+  "path": "src/assets/suspectboard/crossbar_36.png",
+  "w": 522.0,
+  "h": 165.0
+ },
+ {
+  "path": "src/assets/suspectboard/markedlocations.png",
+  "w": 753.0,
+  "h": 870.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeynote.png",
+  "w": 820.0,
+  "h": 1067.0
+ },
+ {
+  "path": "src/assets/suspectboard/federicoenvelope.png",
+  "w": 472.0,
+  "h": 160.0
+ },
+ {
+  "path": "src/assets/suspectboard/jamesevidencepolaroids.png",
+  "w": 567.0,
+  "h": 537.0
+ },
+ {
+  "path": "src/assets/suspectboard/jamesevidencefull.png",
+  "w": 601.0,
+  "h": 588.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreport.png",
+  "w": 363.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/suspectboard/brownpacket.png",
+  "w": 428.0,
+  "h": 219.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeykevinbracelet.png",
+  "w": 210.0,
+  "h": 92.0
+ },
+ {
+  "path": "src/assets/suspectboard/vernonenvelope1.png",
+  "w": 646.0,
+  "h": 218.0
+ },
+ {
+  "path": "src/assets/suspectboard/newspaperadamkevin.png",
+  "w": 630.0,
+  "h": 222.0
+ },
+ {
+  "path": "src/assets/suspectboard/newspaperadamkevin-big.png",
+  "w": 1192.0,
+  "h": 2000.0
+ },
+ {
+  "path": "src/assets/suspectboard/yeahsciencebox.png",
+  "w": 512.0,
+  "h": 345.0
+ },
+ {
+  "path": "src/assets/suspectboard/magazines.png",
+  "w": 1320.0,
+  "h": 548.0
+ },
+ {
+  "path": "src/assets/suspectboard/valeria.png",
+  "w": 753.0,
+  "h": 870.0
+ },
+ {
+  "path": "src/assets/suspectboard/damonwho.png",
+  "w": 750.0,
+  "h": 850.0
+ },
+ {
+  "path": "src/assets/suspectboard/damon.png",
+  "w": 750.0,
+  "h": 850.0
+ },
+ {
+  "path": "src/assets/suspectboard/maxwho.png",
+  "w": 750.0,
+  "h": 850.0
+ },
+ {
+  "path": "src/assets/suspectboard/max.png",
+  "w": 750.0,
+  "h": 850.0
+ },
+ {
+  "path": "src/assets/suspectboard/rajan.png",
+  "w": 502.0,
+  "h": 580.0
+ },
+ {
+  "path": "src/assets/lockscreen/detective.jpg",
+  "w": 556.0,
+  "h": 993.0
+ },
+ {
+  "path": "src/assets/messages/background.png",
+  "w": 1895.0,
+  "h": 3214.0
+ },
+ {
+  "path": "src/assets/messages/zoeycar.png",
+  "w": 598.0,
+  "h": 716.0
+ },
+ {
+  "path": "src/assets/messages/newspapercutout.png",
+  "w": 1024.0,
+  "h": 248.0
+ },
+ {
+  "path": "src/assets/messages/riverstonehighnumber.png",
+  "w": 512.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/messages/sarahlivingroom.png",
+  "w": 1214.0,
+  "h": 924.0
+ },
+ {
+  "path": "src/assets/messages/sarahlivingroom1.png",
+  "w": 1214.0,
+  "h": 924.0
+ },
+ {
+  "path": "src/assets/messages/sarahlivingroom2.png",
+  "w": 393.0,
+  "h": 210.0
+ },
+ {
+  "path": "src/assets/messages/alicenote.png",
+  "w": 666.0,
+  "h": 1137.0
+ },
+ {
+  "path": "src/assets/messages/zoeylocker.png",
+  "w": 791.0,
+  "h": 1014.0
+ },
+ {
+  "path": "src/assets/messages/zoeylockerzoomed.png",
+  "w": 868.0,
+  "h": 868.0
+ },
+ {
+  "path": "src/assets/messages/amandatowers.png",
+  "w": 450.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/messages/federicoplan.png",
+  "w": 695.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/messages/ambercallrecords.png",
+  "w": 747.0,
+  "h": 1344.0
+ },
+ {
+  "path": "src/assets/messages/ambercallrecordsgregory.png",
+  "w": 996.0,
+  "h": 111.0
+ },
+ {
+  "path": "src/assets/messages/kevinhospital.png",
+  "w": 1346.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/messages/peps.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/messages/silenthighwayman.png",
+  "w": 843.0,
+  "h": 564.0
+ },
+ {
+  "path": "src/assets/messages/hieroglyphs.png",
+  "w": 843.0,
+  "h": 395.0
+ },
+ {
+  "path": "src/assets/messages/correctedhieroglyphs.png",
+  "w": 843.0,
+  "h": 395.0
+ },
+ {
+  "path": "src/assets/messages/tunnels.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/messages/bombdefusalguide1.png",
+  "w": 542.0,
+  "h": 270.0
+ },
+ {
+  "path": "src/assets/messages/bombdefusalguide2.png",
+  "w": 542.0,
+  "h": 992.0
+ },
+ {
+  "path": "src/assets/messages/bombdefusalguide3.png",
+  "w": 542.0,
+  "h": 984.0
+ },
+ {
+  "path": "src/assets/messages/bombdefusalguide4.png",
+  "w": 542.0,
+  "h": 670.0
+ },
+ {
+  "path": "src/assets/messages/electronicslist.png",
+  "w": 614.0,
+  "h": 998.0
+ },
+ {
+  "path": "src/assets/messages/rajancalllog.png",
+  "w": 472.0,
+  "h": 801.0
+ },
+ {
+  "path": "src/assets/messages/cheatingwifescreenshot.png",
+  "w": 750.0,
+  "h": 458.0
+ },
+ {
+  "path": "src/assets/gallery/betty-vomit.png",
+  "w": 1038.0,
+  "h": 580.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-eyes.png",
+  "w": 1000.0,
+  "h": 835.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-half.png",
+  "w": 1000.0,
+  "h": 838.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-floor.png",
+  "w": 714.0,
+  "h": 568.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-floor-zoomed.png",
+  "w": 751.0,
+  "h": 597.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-sofa.png",
+  "w": 1000.0,
+  "h": 755.0
+ },
+ {
+  "path": "src/assets/gallery/family.png",
+  "w": 950.0,
+  "h": 547.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-lily.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-betty.png",
+  "w": 2004.0,
+  "h": 1928.0
+ },
+ {
+  "path": "src/assets/gallery/clock-jerry.png",
+  "w": 1286.0,
+  "h": 1106.0
+ },
+ {
+  "path": "src/assets/gallery/clock-zoey-jerry.png",
+  "w": 1287.0,
+  "h": 1188.0
+ },
+ {
+  "path": "src/assets/gallery/clock-mom-dad.png",
+  "w": 1305.0,
+  "h": 1185.0
+ },
+ {
+  "path": "src/assets/gallery/clock-table.png",
+  "w": 840.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/gallery/bracelets.png",
+  "w": 1045.0,
+  "h": 444.0
+ },
+ {
+  "path": "src/assets/gallery/bicycle.png",
+  "w": 751.0,
+  "h": 394.0
+ },
+ {
+  "path": "src/assets/gallery/tree.png",
+  "w": 714.0,
+  "h": 646.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-selfie.png",
+  "w": 1068.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-jerry-red.png",
+  "w": 1269.0,
+  "h": 1078.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-birthday.png",
+  "w": 1346.0,
+  "h": 1451.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-table.png",
+  "w": 915.0,
+  "h": 1451.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-sleeping.png",
+  "w": 367.0,
+  "h": 340.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-in-arms.png",
+  "w": 390.0,
+  "h": 368.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-staring.png",
+  "w": 294.0,
+  "h": 302.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-head.png",
+  "w": 400.0,
+  "h": 372.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-posing.png",
+  "w": 491.0,
+  "h": 495.0
+ },
+ {
+  "path": "src/assets/gallery/counselor-desk.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/gallery/counselor-number.png",
+  "w": 697.0,
+  "h": 345.0
+ },
+ {
+  "path": "src/assets/gallery/fortune-cookie.png",
+  "w": 731.0,
+  "h": 711.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-sleep.png",
+  "w": 600.0,
+  "h": 558.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-sitting-relax.png",
+  "w": 600.0,
+  "h": 601.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-sweater.png",
+  "w": 600.0,
+  "h": 567.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-towel.png",
+  "w": 600.0,
+  "h": 557.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-scarf-green.png",
+  "w": 600.0,
+  "h": 578.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-beauty.png",
+  "w": 600.0,
+  "h": 606.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-poop.png",
+  "w": 600.0,
+  "h": 661.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-the-look.png",
+  "w": 600.0,
+  "h": 588.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-curly.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-legs-dangling.png",
+  "w": 512.0,
+  "h": 471.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-thinking.png",
+  "w": 512.0,
+  "h": 522.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-napping.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-pillow.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/gallery/jerry-angry.png",
+  "w": 512.0,
+  "h": 514.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-rajan.png",
+  "w": 512.0,
+  "h": 404.0
+ },
+ {
+  "path": "src/assets/gallery/zoey-pose.png",
+  "w": 512.0,
+  "h": 475.0
+ },
+ {
+  "path": "src/assets/gallery/scrabble.png",
+  "w": 512.0,
+  "h": 479.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-zoey.png",
+  "w": 755.0,
+  "h": 755.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-betty.png",
+  "w": 922.0,
+  "h": 929.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-brad.png",
+  "w": 758.0,
+  "h": 758.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-kyle.png",
+  "w": 403.0,
+  "h": 540.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-zac.png",
+  "w": 1008.0,
+  "h": 1008.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-kevin.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-mike.png",
+  "w": 750.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-techyonic.png",
+  "w": 768.0,
+  "h": 768.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-bud24.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-victoriiu.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/profile-shane.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-betty-halloween.png",
+  "w": 1068.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-beach.png",
+  "w": 676.0,
+  "h": 1005.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-lily.png",
+  "w": 750.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-jerry-flowers.png",
+  "w": 751.0,
+  "h": 622.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-bicycle.png",
+  "w": 759.0,
+  "h": 444.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-quiz-poster.png",
+  "w": 612.0,
+  "h": 612.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-brad.png",
+  "w": 1000.0,
+  "h": 1117.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-zac.png",
+  "w": 970.0,
+  "h": 751.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-kevin.png",
+  "w": 1233.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-kyle.png",
+  "w": 764.0,
+  "h": 1181.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-zoey-betty.png",
+  "w": 1238.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-lily-pool.png",
+  "w": 723.0,
+  "h": 887.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-blogs.png",
+  "w": 1639.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-pool.png",
+  "w": 1236.0,
+  "h": 1060.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-kyle-cartons.png",
+  "w": 1118.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-party-blue.png",
+  "w": 939.0,
+  "h": 592.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-party-purple.png",
+  "w": 1332.0,
+  "h": 887.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-party-entrance.png",
+  "w": 1808.0,
+  "h": 887.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-kyle-brad.png",
+  "w": 750.0,
+  "h": 425.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-jerry-standing.png",
+  "w": 750.0,
+  "h": 711.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-kyle-chilling.png",
+  "w": 558.0,
+  "h": 751.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-kyle-headache.png",
+  "w": 825.0,
+  "h": 846.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-riverstone-safest.png",
+  "w": 465.0,
+  "h": 564.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-tbrpg.png",
+  "w": 435.0,
+  "h": 564.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-zoey-quizits.png",
+  "w": 563.0,
+  "h": 534.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-swiftle.png",
+  "w": 1181.0,
+  "h": 1182.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-game-promo.png",
+  "w": 810.0,
+  "h": 810.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-adam-report.png",
+  "w": 1430.0,
+  "h": 1430.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-kyle-riverstone.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-game-promo2.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-brad-vibe.png",
+  "w": 600.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-brad-gymbro.png",
+  "w": 600.0,
+  "h": 574.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-wine.png",
+  "w": 600.0,
+  "h": 579.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-nails.png",
+  "w": 600.0,
+  "h": 563.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-techyonic-slashj.png",
+  "w": 616.0,
+  "h": 602.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-meme-melanie-betty.png",
+  "w": 500.0,
+  "h": 805.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-sunglasses.png",
+  "w": 512.0,
+  "h": 433.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-oakwood-road.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-betty-bed-coffee.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-techyonic-fan-meme-betty-lily.png",
+  "w": 512.0,
+  "h": 650.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-techyonic-fan-art-poster.png",
+  "w": 513.0,
+  "h": 683.0
+ },
+ {
+  "path": "src/assets/pixabowl/post-game-promo3.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/mail/houseparty.png",
+  "w": 1000.0,
+  "h": 1546.0
+ },
+ {
+  "path": "src/assets/mail/loanapplication.png",
+  "w": 1567.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/mail/rshdramaclub.png",
+  "w": 1111.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/mail/christmasoffer.png",
+  "w": 900.0,
+  "h": 557.0
+ },
+ {
+  "path": "src/assets/mail/zoeyeditorial.png",
+  "w": 1000.0,
+  "h": 1373.0
+ },
+ {
+  "path": "src/assets/mail/lilyprojectfile.png",
+  "w": 425.0,
+  "h": 88.0
+ },
+ {
+  "path": "src/assets/mail/eddyhalloweenparty.png",
+  "w": 851.0,
+  "h": 1101.0
+ },
+ {
+  "path": "src/assets/mail/helsyisonfire.png",
+  "w": 805.0,
+  "h": 1409.0
+ },
+ {
+  "path": "src/assets/mail/chess.png",
+  "w": 748.0,
+  "h": 1081.0
+ },
+ {
+  "path": "src/assets/mail/fiesta.png",
+  "w": 844.0,
+  "h": 1335.0
+ },
+ {
+  "path": "src/assets/mail/bettyblogs.png",
+  "w": 1004.0,
+  "h": 1502.0
+ },
+ {
+  "path": "src/assets/mail/riverstonecarwash.png",
+  "w": 901.0,
+  "h": 1350.0
+ },
+ {
+  "path": "src/assets/mail/phonefinder.png",
+  "w": 1283.0,
+  "h": 2199.0
+ },
+ {
+  "path": "src/assets/mail/littlehamsters.png",
+  "w": 826.0,
+  "h": 1104.0
+ },
+ {
+  "path": "src/assets/mail/premiumtables.png",
+  "w": 805.0,
+  "h": 1359.0
+ },
+ {
+  "path": "src/assets/mail/podcastnews.png",
+  "w": 805.0,
+  "h": 1359.0
+ },
+ {
+  "path": "src/assets/mail/vault8valeria.png",
+  "w": 1000.0,
+  "h": 1500.0
+ },
+ {
+  "path": "src/assets/mail/campingadvert.png",
+  "w": 1000.0,
+  "h": 1937.0
+ },
+ {
+  "path": "src/assets/mail/quizigitsvacancyfull.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/mail/fantasyball.png",
+  "w": 528.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/mail/artexhibitlaunch.png",
+  "w": 500.0,
+  "h": 882.0
+ },
+ {
+  "path": "src/assets/mail/animalshelter.png",
+  "w": 479.0,
+  "h": 785.0
+ },
+ {
+  "path": "src/assets/mail/adventurepark.png",
+  "w": 516.0,
+  "h": 966.0
+ },
+ {
+  "path": "src/assets/browser/maptile.png",
+  "w": 1024.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/map.png",
+  "w": 1200.0,
+  "h": 1400.0
+ },
+ {
+  "path": "src/assets/browser/abouttile.png",
+  "w": 1024.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/about.png",
+  "w": 990.0,
+  "h": 681.0
+ },
+ {
+  "path": "src/assets/browser/fiestalogo.png",
+  "w": 413.0,
+  "h": 27.0
+ },
+ {
+  "path": "src/assets/browser/bettyblogshoodie.png",
+  "w": 396.0,
+  "h": 314.0
+ },
+ {
+  "path": "src/assets/browser/kylesinglegirls.png",
+  "w": 524.0,
+  "h": 821.0
+ },
+ {
+  "path": "src/assets/browser/newspaper.png",
+  "w": 1000.0,
+  "h": 1300.0
+ },
+ {
+  "path": "src/assets/browser/ethanportrait.png",
+  "w": 512.0,
+  "h": 604.0
+ },
+ {
+  "path": "src/assets/browser/grove.png",
+  "w": 405.0,
+  "h": 580.0
+ },
+ {
+  "path": "src/assets/browser/taylorbaby.jpg",
+  "w": 205.0,
+  "h": 246.0
+ },
+ {
+  "path": "src/assets/browser/callawaybook.png",
+  "w": 1038.0,
+  "h": 1380.0
+ },
+ {
+  "path": "src/assets/browser/callawaybooktext.png",
+  "w": 938.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/browser/callawaybookchloe.png",
+  "w": 66.0,
+  "h": 25.0
+ },
+ {
+  "path": "src/assets/browser/callawaybookblur.png",
+  "w": 303.0,
+  "h": 73.0
+ },
+ {
+  "path": "src/assets/browser/callawaybookflower1.png",
+  "w": 692.0,
+  "h": 140.0
+ },
+ {
+  "path": "src/assets/browser/callawaybookflower2.png",
+  "w": 692.0,
+  "h": 140.0
+ },
+ {
+  "path": "src/assets/browser/callawaybookflower3.png",
+  "w": 692.0,
+  "h": 140.0
+ },
+ {
+  "path": "src/assets/browser/roomblueprint.png",
+  "w": 560.0,
+  "h": 803.0
+ },
+ {
+  "path": "src/assets/browser/pbmassspamad1.png",
+  "w": 400.0,
+  "h": 400.0
+ },
+ {
+  "path": "src/assets/browser/pbmassspamad2.png",
+  "w": 400.0,
+  "h": 400.0
+ },
+ {
+  "path": "src/assets/browser/pbmassspamad3.png",
+  "w": 400.0,
+  "h": 400.0
+ },
+ {
+  "path": "src/assets/browser/pbmassspamad4.png",
+  "w": 400.0,
+  "h": 400.0
+ },
+ {
+  "path": "src/assets/browser/bandhalloween.png",
+  "w": 679.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/browser/kevinhospitalwall.png",
+  "w": 673.0,
+  "h": 500.0
+ },
+ {
+  "path": "src/assets/diary/arrows.png",
+  "w": 652.0,
+  "h": 68.0
+ },
+ {
+  "path": "src/assets/diary/symbolenvelope.png",
+  "w": 343.0,
+  "h": 122.0
+ },
+ {
+  "path": "src/assets/diary/discs.png",
+  "w": 2048.0,
+  "h": 276.0
+ },
+ {
+  "path": "src/assets/diary/emojipassword.png",
+  "w": 497.0,
+  "h": 133.0
+ },
+ {
+  "path": "src/assets/files/symbolcoordinates.png",
+  "w": 620.0,
+  "h": 620.0
+ },
+ {
+  "path": "src/assets/files/stickynotes.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/sidetrails/appcard.png",
+  "w": 288.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/sidetrails/playcard.png",
+  "w": 607.0,
+  "h": 241.0
+ },
+ {
+  "path": "src/assets/sidetrails/pausecard.png",
+  "w": 607.0,
+  "h": 241.0
+ },
+ {
+  "path": "src/assets/sidetrails/deductioncard.png",
+  "w": 936.0,
+  "h": 365.0
+ },
+ {
+  "path": "src/assets/sidetrails/mysterycard.png",
+  "w": 307.0,
+  "h": 309.0
+ },
+ {
+  "path": "src/assets/sidetrails/questioncard.png",
+  "w": 512.0,
+  "h": 127.0
+ },
+ {
+  "path": "src/assets/sidetrails/optioncard.png",
+  "w": 724.0,
+  "h": 370.0
+ },
+ {
+  "path": "src/assets/sidetrails/aiquestioncard.png",
+  "w": 512.0,
+  "h": 128.0
+ },
+ {
+  "path": "src/assets/sidetrails/aioptioncard.png",
+  "w": 724.0,
+  "h": 370.0
+ },
+ {
+  "path": "src/assets/sidetrails/modalcard.png",
+  "w": 607.0,
+  "h": 282.0
+ },
+ {
+  "path": "src/assets/sidetrails/sidetrail1banner.png",
+  "w": 606.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/sidetrails/sidetrail2banner.png",
+  "w": 606.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/sidetrails/sidetrail3banner.png",
+  "w": 606.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/sidetrails/sidetrail4banner.png",
+  "w": 606.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/sidetrails/sidetrail5banner.png",
+  "w": 606.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/sidetrails/deductions.png",
+  "w": 110.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/sidetrails/suspects.png",
+  "w": 110.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/sidetrails/files.png",
+  "w": 110.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/sidetrails/tasks.png",
+  "w": 110.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/sidetrails/cameroncasereport.png",
+  "w": 950.0,
+  "h": 950.0
+ },
+ {
+  "path": "src/assets/sidetrails/branfordmansion.jpg",
+  "w": 512.0,
+  "h": 216.0
+ },
+ {
+  "path": "src/assets/sidetrails/artevidence.png",
+  "w": 1149.0,
+  "h": 1809.0
+ },
+ {
+  "path": "src/assets/videos/artfootage.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/sidetrails/idcardcole.png",
+  "w": 492.0,
+  "h": 313.0
+ },
+ {
+  "path": "src/assets/sidetrails/ethancasereport.png",
+  "w": 329.0,
+  "h": 329.0
+ },
+ {
+  "path": "src/assets/sidetrails/welcometoriverstone.png",
+  "w": 913.0,
+  "h": 514.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicecasereport.png",
+  "w": 292.0,
+  "h": 292.0
+ },
+ {
+  "path": "src/assets/sidetrails/sarahcasereport.png",
+  "w": 996.0,
+  "h": 996.0
+ },
+ {
+  "path": "src/assets/sidetrails/sarahhouseentrance.jpg",
+  "w": 1920.0,
+  "h": 1280.0
+ },
+ {
+  "path": "src/assets/sidetrails/whispertap.png",
+  "w": 682.0,
+  "h": 682.0
+ },
+ {
+  "path": "src/assets/sidetrails/bellacasereport.png",
+  "w": 513.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/sidetrails/carnumberplate.png",
+  "w": 244.0,
+  "h": 152.0
+ },
+ {
+  "path": "src/assets/sidetrails/federicocasereport.png",
+  "w": 263.0,
+  "h": 263.0
+ },
+ {
+  "path": "src/assets/sidetrails/maxinecasereport.png",
+  "w": 261.0,
+  "h": 261.0
+ },
+ {
+  "path": "src/assets/sidetrails/emilypoem.png",
+  "w": 900.0,
+  "h": 900.0
+ },
+ {
+  "path": "src/assets/timeline/bicycle.png",
+  "w": 241.0,
+  "h": 178.0
+ },
+ {
+  "path": "src/assets/timeline/bracelets.png",
+  "w": 480.0,
+  "h": 262.0
+ },
+ {
+  "path": "src/assets/timeline/heart.png",
+  "w": 284.0,
+  "h": 286.0
+ },
+ {
+  "path": "src/assets/timeline/envelope.png",
+  "w": 242.0,
+  "h": 195.0
+ },
+ {
+  "path": "src/assets/timeline/symbol.png",
+  "w": 292.0,
+  "h": 257.0
+ },
+ {
+  "path": "src/assets/timeline/diarysymbol.png",
+  "w": 402.0,
+  "h": 460.0
+ },
+ {
+  "path": "src/assets/timeline/at.png",
+  "w": 193.0,
+  "h": 202.0
+ },
+ {
+  "path": "src/assets/timeline/sleepover.png",
+  "w": 263.0,
+  "h": 230.0
+ },
+ {
+  "path": "src/assets/timeline/tshirtjeans.png",
+  "w": 279.0,
+  "h": 251.0
+ },
+ {
+  "path": "src/assets/timeline/dress.png",
+  "w": 199.0,
+  "h": 278.0
+ },
+ {
+  "path": "src/assets/timeline/kylehouse.png",
+  "w": 350.0,
+  "h": 303.0
+ },
+ {
+  "path": "src/assets/timeline/inviteqr.png",
+  "w": 195.0,
+  "h": 234.0
+ },
+ {
+  "path": "src/assets/timeline/kylehousepoolside.png",
+  "w": 480.0,
+  "h": 308.0
+ },
+ {
+  "path": "src/assets/timeline/dare.png",
+  "w": 257.0,
+  "h": 268.0
+ },
+ {
+  "path": "src/assets/timeline/spill.png",
+  "w": 175.0,
+  "h": 195.0
+ },
+ {
+  "path": "src/assets/timeline/carton.png",
+  "w": 234.0,
+  "h": 184.0
+ },
+ {
+  "path": "src/assets/timeline/beaten.png",
+  "w": 217.0,
+  "h": 279.0
+ },
+ {
+  "path": "src/assets/timeline/girlpool.png",
+  "w": 270.0,
+  "h": 206.0
+ },
+ {
+  "path": "src/assets/timeline/car.png",
+  "w": 252.0,
+  "h": 116.0
+ },
+ {
+  "path": "src/assets/timeline/camera.png",
+  "w": 238.0,
+  "h": 235.0
+ },
+ {
+  "path": "src/assets/timeline/towncenter.png",
+  "w": 244.0,
+  "h": 316.0
+ },
+ {
+  "path": "src/assets/timeline/tapping.png",
+  "w": 282.0,
+  "h": 145.0
+ },
+ {
+  "path": "src/assets/timeline/unknown.png",
+  "w": 167.0,
+  "h": 157.0
+ },
+ {
+  "path": "src/assets/timeline/belongings.png",
+  "w": 212.0,
+  "h": 248.0
+ },
+ {
+  "path": "src/assets/timeline/vault8.png",
+  "w": 1080.0,
+  "h": 1328.0
+ },
+ {
+  "path": "src/assets/timeline/choices.png",
+  "w": 182.0,
+  "h": 203.0
+ },
+ {
+  "path": "src/assets/timeline/club.png",
+  "w": 317.0,
+  "h": 112.0
+ },
+ {
+  "path": "src/assets/timeline/crumpledpaper.png",
+  "w": 251.0,
+  "h": 258.0
+ },
+ {
+  "path": "src/assets/timeline/zoeysbracelet.png",
+  "w": 157.0,
+  "h": 159.0
+ },
+ {
+  "path": "src/assets/timeline/bicyclehandle.png",
+  "w": 304.0,
+  "h": 141.0
+ },
+ {
+  "path": "src/assets/timeline/bloodsymbol.png",
+  "w": 231.0,
+  "h": 170.0
+ },
+ {
+  "path": "src/assets/timeline/deadbody.png",
+  "w": 204.0,
+  "h": 346.0
+ },
+ {
+  "path": "src/assets/timeline/evidencemarkers.png",
+  "w": 316.0,
+  "h": 237.0
+ },
+ {
+  "path": "src/assets/timeline/bicycleexamine.png",
+  "w": 338.0,
+  "h": 179.0
+ },
+ {
+  "path": "src/assets/timeline/elimination.png",
+  "w": 302.0,
+  "h": 223.0
+ },
+ {
+  "path": "src/assets/timeline/rose.png",
+  "w": 257.0,
+  "h": 317.0
+ },
+ {
+  "path": "src/assets/timeline/hamster.png",
+  "w": 389.0,
+  "h": 287.0
+ },
+ {
+  "path": "src/assets/timeline/therapyreports.png",
+  "w": 226.0,
+  "h": 247.0
+ },
+ {
+  "path": "src/assets/timeline/zoeybox.png",
+  "w": 266.0,
+  "h": 157.0
+ },
+ {
+  "path": "src/assets/timeline/swapbox.png",
+  "w": 352.0,
+  "h": 291.0
+ },
+ {
+  "path": "src/assets/timeline/coordinates.png",
+  "w": 245.0,
+  "h": 215.0
+ },
+ {
+  "path": "src/assets/timeline/cave.png",
+  "w": 284.0,
+  "h": 189.0
+ },
+ {
+  "path": "src/assets/timeline/housenowindows.png",
+  "w": 249.0,
+  "h": 202.0
+ },
+ {
+  "path": "src/assets/timeline/unknownphone.png",
+  "w": 180.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/timeline/knock.png",
+  "w": 180.0,
+  "h": 251.0
+ },
+ {
+  "path": "src/assets/timeline/kevinchase.png",
+  "w": 213.0,
+  "h": 184.0
+ },
+ {
+  "path": "src/assets/timeline/bullet.png",
+  "w": 288.0,
+  "h": 140.0
+ },
+ {
+  "path": "src/assets/timeline/lostphone.png",
+  "w": 225.0,
+  "h": 247.0
+ },
+ {
+  "path": "src/assets/timeline/icu.png",
+  "w": 250.0,
+  "h": 259.0
+ },
+ {
+  "path": "src/assets/timeline/lilyflower.png",
+  "w": 201.0,
+  "h": 174.0
+ },
+ {
+  "path": "src/assets/timeline/treehouse.png",
+  "w": 234.0,
+  "h": 266.0
+ },
+ {
+  "path": "src/assets/notifications/smartphone.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/trail.png",
+  "w": 96.0,
+  "h": 96.0
+ },
+ {
+  "path": "src/assets/notifications/bullet.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/bulb.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/bulb1.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/bulb2.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/bulb3.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/notifications/noads.png",
+  "w": 433.0,
+  "h": 433.0
+ },
+ {
+  "path": "src/assets/settings/discord-secondary.png",
+  "w": 120.0,
+  "h": 91.0
+ },
+ {
+  "path": "src/assets/settings/instagram-secondary.png",
+  "w": 110.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/settings/twitter-secondary.png",
+  "w": 110.0,
+  "h": 90.0
+ },
+ {
+  "path": "src/assets/notifications/recovery-black.png",
+  "w": 48.0,
+  "h": 48.0
+ },
+ {
+  "path": "src/assets/settings/newepisode.png",
+  "w": 642.0,
+  "h": 225.0
+ },
+ {
+  "path": "src/assets/settings/shopbg.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/settings/saverpack.png",
+  "w": 1714.0,
+  "h": 502.0
+ },
+ {
+  "path": "src/assets/settings/sidetrails.png",
+  "w": 1712.0,
+  "h": 360.0
+ },
+ {
+  "path": "src/assets/settings/removeads.png",
+  "w": 1712.0,
+  "h": 360.0
+ },
+ {
+  "path": "src/assets/socials/discord.png",
+  "w": 676.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/socials/instagram.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/socials/twitter.png",
+  "w": 623.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/socials/reddit.png",
+  "w": 84.0,
+  "h": 75.0
+ },
+ {
+  "path": "src/assets/socials/tiktok.png",
+  "w": 84.0,
+  "h": 84.0
+ },
+ {
+  "path": "src/assets/gallery/header.png",
+  "w": 1895.0,
+  "h": 576.0
+ },
+ {
+  "path": "src/assets/gallery/background.png",
+  "w": 696.0,
+  "h": 969.0
+ },
+ {
+  "path": "src/assets/gallery/background-hidden.png",
+  "w": 696.0,
+  "h": 968.0
+ },
+ {
+  "path": "src/assets/mail/partyinviteinfo.png",
+  "w": 351.0,
+  "h": 353.0
+ },
+ {
+  "path": "src/assets/mail/quizigitsvacancyrajan.png",
+  "w": 1000.0,
+  "h": 106.0
+ },
+ {
+  "path": "src/assets/pixabowl/header.png",
+  "w": 1422.0,
+  "h": 432.0
+ },
+ {
+  "path": "src/assets/pixabowl/background.png",
+  "w": 506.0,
+  "h": 861.0
+ },
+ {
+  "path": "src/assets/messages/header.png",
+  "w": 1895.0,
+  "h": 574.0
+ },
+ {
+  "path": "src/assets/archive/diamond.png",
+  "w": 349.0,
+  "h": 349.0
+ },
+ {
+  "path": "src/assets/archive/diamond-done.png",
+  "w": 349.0,
+  "h": 349.0
+ },
+ {
+  "path": "src/assets/archive/youtube.png",
+  "w": 287.0,
+  "h": 77.0
+ },
+ {
+  "path": "src/assets/browser/cultglitch.png",
+  "w": 107.0,
+  "h": 116.0
+ },
+ {
+  "path": "src/assets/browser/riverstonepdlogo.png",
+  "w": 512.0,
+  "h": 164.0
+ },
+ {
+  "path": "src/assets/browser/riverstonepdabout.png",
+  "w": 512.0,
+  "h": 383.0
+ },
+ {
+  "path": "src/assets/browser/riverstonedailybg.jpg",
+  "w": 1280.0,
+  "h": 1920.0
+ },
+ {
+  "path": "src/assets/browser/wrightbookslibrary.png",
+  "w": 915.0,
+  "h": 439.0
+ },
+ {
+  "path": "src/assets/browser/wrightbookswall.png",
+  "w": 549.0,
+  "h": 385.0
+ },
+ {
+  "path": "src/assets/browser/wrightbooksshelf.png",
+  "w": 576.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/wrightbooksbook.png",
+  "w": 550.0,
+  "h": 497.0
+ },
+ {
+  "path": "src/assets/browser/oil.png",
+  "w": 329.0,
+  "h": 249.0
+ },
+ {
+  "path": "src/assets/browser/cloth.png",
+  "w": 291.0,
+  "h": 238.0
+ },
+ {
+  "path": "src/assets/browser/wood.png",
+  "w": 586.0,
+  "h": 205.0
+ },
+ {
+  "path": "src/assets/browser/matchsticks.png",
+  "w": 478.0,
+  "h": 207.0
+ },
+ {
+  "path": "src/assets/browser/fire.png",
+  "w": 229.0,
+  "h": 364.0
+ },
+ {
+  "path": "src/assets/browser/discs.png",
+  "w": 3215.0,
+  "h": 434.0
+ },
+ {
+  "path": "src/assets/videocall/daniel.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/browser/jamtram.png",
+  "w": 152.0,
+  "h": 683.0
+ },
+ {
+  "path": "src/assets/browser/fernsuits.png",
+  "w": 152.0,
+  "h": 683.0
+ },
+ {
+  "path": "src/assets/browser/pixabowlfollowersad.png",
+  "w": 585.0,
+  "h": 275.0
+ },
+ {
+  "path": "src/assets/browser/phonefinder.png",
+  "w": 428.0,
+  "h": 76.0
+ },
+ {
+  "path": "src/assets/browser/phonefinderbg.png",
+  "w": 700.0,
+  "h": 1200.0
+ },
+ {
+  "path": "src/assets/browser/riverstonehighlogo.png",
+  "w": 1810.0,
+  "h": 501.0
+ },
+ {
+  "path": "src/assets/browser/riverstonehighabout.png",
+  "w": 1354.0,
+  "h": 582.0
+ },
+ {
+  "path": "src/assets/browser/littlehamstersbg1.png",
+  "w": 938.0,
+  "h": 1621.0
+ },
+ {
+  "path": "src/assets/browser/littlehamstersbg2.png",
+  "w": 938.0,
+  "h": 1621.0
+ },
+ {
+  "path": "src/assets/browser/littlehamsterslogo.png",
+  "w": 624.0,
+  "h": 87.0
+ },
+ {
+  "path": "src/assets/browser/hamster.png",
+  "w": 224.0,
+  "h": 149.0
+ },
+ {
+  "path": "src/assets/browser/mabebanner.png",
+  "w": 2250.0,
+  "h": 469.0
+ },
+ {
+  "path": "src/assets/browser/mabemakeup.png",
+  "w": 1364.0,
+  "h": 718.0
+ },
+ {
+  "path": "src/assets/animations/people.lottie",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/browser/dashcamdefault.png",
+  "w": 900.0,
+  "h": 506.0
+ },
+ {
+  "path": "src/assets/browser/dashcamperson.png",
+  "w": 900.0,
+  "h": 506.0
+ },
+ {
+  "path": "src/assets/browser/smarthomelogo.png",
+  "w": 1067.0,
+  "h": 211.0
+ },
+ {
+  "path": "src/assets/browser/smarthomebellamap.png",
+  "w": 1000.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/browser/wireframe.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/finalwireframe.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/finalfinalwireframe.png",
+  "w": 512.0,
+  "h": 512.0
+ },
+ {
+  "path": "src/assets/browser/maxineprescription.png",
+  "w": 889.0,
+  "h": 564.0
+ },
+ {
+  "path": "src/assets/browser/maxineprescriptionbella.png",
+  "w": 888.0,
+  "h": 62.0
+ },
+ {
+  "path": "src/assets/browser/maxineprescriptionoxycodone.png",
+  "w": 888.0,
+  "h": 84.0
+ },
+ {
+  "path": "src/assets/browser/peps.png",
+  "w": 291.0,
+  "h": 85.0
+ },
+ {
+  "path": "src/assets/browser/pepsfeatures.png",
+  "w": 811.0,
+  "h": 350.0
+ },
+ {
+  "path": "src/assets/browser/pepsmap.png",
+  "w": 1119.0,
+  "h": 900.0
+ },
+ {
+  "path": "src/assets/browser/riverstoneforensicslogo.png",
+  "w": 530.0,
+  "h": 182.0
+ },
+ {
+  "path": "src/assets/browser/dnabg.png",
+  "w": 1004.0,
+  "h": 810.0
+ },
+ {
+  "path": "src/assets/browser/adaforensicslogo.png",
+  "w": 428.0,
+  "h": 143.0
+ },
+ {
+  "path": "src/assets/browser/geoscopelogo.png",
+  "w": 277.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/geoscopemap.png",
+  "w": 719.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerballoon.png",
+  "w": 304.0,
+  "h": 304.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerbread.png",
+  "w": 383.0,
+  "h": 383.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnercatfood.png",
+  "w": 182.0,
+  "h": 182.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerhatchet.png",
+  "w": 251.0,
+  "h": 251.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerkey.png",
+  "w": 130.0,
+  "h": 130.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerpennies.png",
+  "w": 294.0,
+  "h": 294.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerrope.png",
+  "w": 266.0,
+  "h": 266.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerticket.png",
+  "w": 342.0,
+  "h": 342.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnercat.png",
+  "w": 382.0,
+  "h": 382.0
+ },
+ {
+  "path": "src/assets/browser/vault8dinnerlockpick.png",
+  "w": 219.0,
+  "h": 219.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicelogo.png",
+  "w": 203.0,
+  "h": 148.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicebanner.png",
+  "w": 490.0,
+  "h": 192.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicemenu.png",
+  "w": 899.0,
+  "h": 1326.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicemenubg.png",
+  "w": 491.0,
+  "h": 818.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengebg.png",
+  "w": 2057.0,
+  "h": 548.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengeknife.png",
+  "w": 102.0,
+  "h": 872.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza0.png",
+  "w": 1432.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza1.png",
+  "w": 1428.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza2.png",
+  "w": 1427.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza3.png",
+  "w": 1427.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza4.png",
+  "w": 1427.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizza5.png",
+  "w": 1427.0,
+  "h": 1210.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengesauce.png",
+  "w": 168.0,
+  "h": 168.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheese.png",
+  "w": 181.0,
+  "h": 172.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengeolives.png",
+  "w": 226.0,
+  "h": 224.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengegreens.png",
+  "w": 200.0,
+  "h": 200.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengesalami.png",
+  "w": 230.0,
+  "h": 216.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheckpoint1.png",
+  "w": 135.0,
+  "h": 116.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheckpoint2.png",
+  "w": 135.0,
+  "h": 115.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheckpoint3.png",
+  "w": 135.0,
+  "h": 115.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheckpoint4.png",
+  "w": 135.0,
+  "h": 115.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengecheckpoint5.png",
+  "w": 135.0,
+  "h": 115.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizzasplat.png",
+  "w": 727.0,
+  "h": 361.0
+ },
+ {
+  "path": "src/assets/browser/rusticslicechallengepizzashiny.png",
+  "w": 468.0,
+  "h": 449.0
+ },
+ {
+  "path": "src/assets/browser/yeahsciencelogo.png",
+  "w": 433.0,
+  "h": 100.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/battery.png",
+  "w": 134.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/resistor.png",
+  "w": 256.0,
+  "h": 69.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/capacitor.png",
+  "w": 142.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/thermistor.png",
+  "w": 142.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/dcmotor.png",
+  "w": 134.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/transistor.png",
+  "w": 110.0,
+  "h": 260.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/fuse.png",
+  "w": 69.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/inductor.png",
+  "w": 256.0,
+  "h": 126.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/ldr.png",
+  "w": 161.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/led.png",
+  "w": 77.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/microcontroller.png",
+  "w": 256.0,
+  "h": 191.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/microprocessor.png",
+  "w": 256.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/potentiometer.png",
+  "w": 175.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/printedcircuitboard.png",
+  "w": 256.0,
+  "h": 183.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/relay.png",
+  "w": 216.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/browser/yeahscience/voltageregulator.png",
+  "w": 142.0,
+  "h": 256.0
+ },
+ {
+  "path": "src/assets/diary/page.png",
+  "w": 751.0,
+  "h": 1295.0
+ },
+ {
+  "path": "src/assets/diary/pagegrey.png",
+  "w": 751.0,
+  "h": 1295.0
+ },
+ {
+  "path": "src/assets/diary/pagelocked.png",
+  "w": 751.0,
+  "h": 1295.0
+ },
+ {
+  "path": "src/assets/diary/back.png",
+  "w": 90.0,
+  "h": 90.0
+ },
+ {
+  "path": "src/assets/diary/play.png",
+  "w": 90.0,
+  "h": 90.0
+ },
+ {
+  "path": "src/assets/diary/stop.png",
+  "w": 90.0,
+  "h": 90.0
+ },
+ {
+  "path": "src/assets/videos/symbolcoordinates.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/stickynotes.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/recovery.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/safemode/pa0.png",
+  "w": 96.0,
+  "h": 96.0
+ },
+ {
+  "path": "src/assets/safemode/pa1.png",
+  "w": 96.0,
+  "h": 96.0
+ },
+ {
+  "path": "src/assets/sidetrails/background.png",
+  "w": 720.0,
+  "h": 1280.0
+ },
+ {
+  "path": "src/assets/videos/glitch.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/houseentrancefootage.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/sidetrails/footage1.png",
+  "w": 1080.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/sidetrails/footage2.png",
+  "w": 1080.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/sidetrails/footage3.png",
+  "w": 1080.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/sidetrails/footage4.png",
+  "w": 1080.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/sidetrails/footage5.png",
+  "w": 1080.0,
+  "h": 1080.0
+ },
+ {
+  "path": "src/assets/sidetrails/carcam1.png",
+  "w": 2286.0,
+  "h": 1256.0
+ },
+ {
+  "path": "src/assets/sidetrails/carcam2.png",
+  "w": 2286.0,
+  "h": 1256.0
+ },
+ {
+  "path": "src/assets/sidetrails/carcam3.png",
+  "w": 2286.0,
+  "h": 1256.0
+ },
+ {
+  "path": "src/assets/sidetrails/carcam4.png",
+  "w": 2286.0,
+  "h": 1256.0
+ },
+ {
+  "path": "src/assets/sidetrails/carcam5.png",
+  "w": 2286.0,
+  "h": 1256.0
+ },
+ {
+  "path": "src/assets/sidetrails/carnumberplateblur.png",
+  "w": 254.0,
+  "h": 162.0
+ },
+ {
+  "path": "src/assets/symmetry/background.png",
+  "w": 1802.0,
+  "h": 1802.0
+ },
+ {
+  "path": "src/assets/symmetry/playline.png",
+  "w": 508.0,
+  "h": 2.0
+ },
+ {
+  "path": "src/assets/symmetry/playicon.png",
+  "w": 528.0,
+  "h": 572.0
+ },
+ {
+  "path": "src/assets/symmetry/sidetrailschallengered.png",
+  "w": 231.0,
+  "h": 141.0
+ },
+ {
+  "path": "src/assets/symmetry/gridline.png",
+  "w": 508.0,
+  "h": 1.0
+ },
+ {
+  "path": "src/assets/settings/sidetrailsbuymodal.png",
+  "w": 812.0,
+  "h": 430.0
+ },
+ {
+  "path": "src/assets/videocall/host.png",
+  "w": 512.0,
+  "h": 525.0
+ },
+ {
+  "path": "src/assets/videocall/lazypoem.png",
+  "w": 553.0,
+  "h": 553.0
+ },
+ {
+  "path": "src/assets/videocall/flamingice.png",
+  "w": 553.0,
+  "h": 553.0
+ },
+ {
+  "path": "src/assets/videocall/stealthrizzler.png",
+  "w": 553.0,
+  "h": 553.0
+ },
+ {
+  "path": "src/assets/videocall/adam.png",
+  "w": 553.0,
+  "h": 553.0
+ },
+ {
+  "path": "src/assets/videocall/cipher.png",
+  "w": 2048.0,
+  "h": 297.0
+ },
+ {
+  "path": "src/assets/animations/kevinwebapptyping.lottie",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/browser/kevinswebappbg.png",
+  "w": 749.0,
+  "h": 1249.0
+ },
+ {
+  "path": "src/assets/hostcall/host.png",
+  "w": 513.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/hostcall/zoey.png",
+  "w": 513.0,
+  "h": 513.0
+ },
+ {
+  "path": "src/assets/suspectboard/wall.png",
+  "w": 960.0,
+  "h": 1567.0
+ },
+ {
+  "path": "src/assets/suspectboard/table.png",
+  "w": 640.0,
+  "h": 216.0
+ },
+ {
+  "path": "src/assets/suspectboard/cup2.png",
+  "w": 166.0,
+  "h": 161.0
+ },
+ {
+  "path": "src/assets/suspectboard/steam1.png",
+  "w": 243.0,
+  "h": 240.0
+ },
+ {
+  "path": "src/assets/suspectboard/steam2.png",
+  "w": 243.0,
+  "h": 240.0
+ },
+ {
+  "path": "src/assets/suspectboard/casereportinfo.png",
+  "w": 1640.0,
+  "h": 260.0
+ },
+ {
+  "path": "src/assets/suspectboard/myphoneside.png",
+  "w": 556.0,
+  "h": 1401.0
+ },
+ {
+  "path": "src/assets/suspectboard/phonebutton.png",
+  "w": 51.0,
+  "h": 242.0
+ },
+ {
+  "path": "src/assets/suspectboard/mess1.png",
+  "w": 952.0,
+  "h": 552.0
+ },
+ {
+  "path": "src/assets/suspectboard/mess2.png",
+  "w": 952.0,
+  "h": 552.0
+ },
+ {
+  "path": "src/assets/suspectboard/mess3.png",
+  "w": 952.0,
+  "h": 552.0
+ },
+ {
+  "path": "src/assets/suspectboard/mess4.png",
+  "w": 952.0,
+  "h": 552.0
+ },
+ {
+  "path": "src/assets/suspectboard/mess5.png",
+  "w": 952.0,
+  "h": 552.0
+ },
+ {
+  "path": "src/assets/suspectboard/kevinzoeyphotobooth.png",
+  "w": 698.0,
+  "h": 285.0
+ },
+ {
+  "path": "src/assets/suspectboard/fallenframe.png",
+  "w": 380.0,
+  "h": 249.0
+ },
+ {
+  "path": "src/assets/suspectboard/dirtybracelet.png",
+  "w": 1001.0,
+  "h": 275.0
+ },
+ {
+  "path": "src/assets/suspectboard/fallenframebig.png",
+  "w": 813.0,
+  "h": 1028.0
+ },
+ {
+  "path": "src/assets/videos/connect.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/connect/bubble1.png",
+  "w": 135.0,
+  "h": 135.0
+ },
+ {
+  "path": "src/assets/connect/bubble2.png",
+  "w": 135.0,
+  "h": 135.0
+ },
+ {
+  "path": "src/assets/connect/kevinorb1.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/connect/kevinorb2.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/connect/valeriaorb1.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/connect/valeriaorb2.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/connect/unknownorb1.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/connect/unknownorb2.png",
+  "w": 487.0,
+  "h": 487.0
+ },
+ {
+  "path": "src/assets/bicyclebox/bicyclealone.png",
+  "w": 1716.0,
+  "h": 1716.0
+ },
+ {
+  "path": "src/assets/bicyclebox/bicycleboxclosed.png",
+  "w": 1716.0,
+  "h": 1716.0
+ },
+ {
+  "path": "src/assets/bicyclebox/bicycleboxhalfopen.png",
+  "w": 1716.0,
+  "h": 1716.0
+ },
+ {
+  "path": "src/assets/bicyclebox/cultalone.png",
+  "w": 1716.0,
+  "h": 1716.0
+ },
+ {
+  "path": "src/assets/bicyclebox/dirtalone.png",
+  "w": 1116.0,
+  "h": 1116.0
+ },
+ {
+  "path": "src/assets/bicyclebox/zoeyandbicycle.png",
+  "w": 1116.0,
+  "h": 1116.0
+ },
+ {
+  "path": "src/assets/videos/911.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/chloeforest.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/sarahmom.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/sherrymom.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/vanessa.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/victoria.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/videos/september13.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/suspectboard/whichone.png",
+  "w": 830.0,
+  "h": 864.0
+ },
+ {
+  "path": "src/assets/suspectboard/whichone2.png",
+  "w": 830.0,
+  "h": 864.0
+ },
+ {
+  "path": "src/assets/settings/discord-primary.png",
+  "w": 91.0,
+  "h": 69.0
+ },
+ {
+  "path": "src/assets/settings/newepisodemodal.png",
+  "w": 642.0,
+  "h": 414.0
+ },
+ {
+  "path": "src/assets/settings/instagram-primary.png",
+  "w": 83.0,
+  "h": 83.0
+ },
+ {
+  "path": "src/assets/settings/twitter-primary.png",
+  "w": 83.0,
+  "h": 68.0
+ },
+ {
+  "path": "src/assets/settings/sidetrailscard.png",
+  "w": 770.0,
+  "h": 460.0
+ },
+ {
+  "path": "src/assets/sidetrails/trees.png",
+  "w": 369.0,
+  "h": 291.0
+ },
+ {
+  "path": "src/assets/treehouse/treeswhite.png",
+  "w": 369.0,
+  "h": 291.0
+ },
+ {
+  "path": "src/assets/vernonappointment/brainstress.png",
+  "w": 473.0,
+  "h": 425.0
+ },
+ {
+  "path": "src/assets/sidetrails/eyeclose.png",
+  "w": 333.0,
+  "h": 154.0
+ },
+ {
+  "path": "src/assets/sidetrails/eyeopen.png",
+  "w": 333.0,
+  "h": 154.0
+ },
+ {
+  "path": "src/assets/sidetrails/outsideroad.png",
+  "w": 720.0,
+  "h": 2200.0
+ },
+ {
+  "path": "src/assets/sidetrails/persongreen.png",
+  "w": 272.0,
+  "h": 369.0
+ },
+ {
+  "path": "src/assets/sidetrails/personred.png",
+  "w": 272.0,
+  "h": 369.0
+ },
+ {
+  "path": "src/assets/videos/mist.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/sidetrails/alicenote.png",
+  "w": 516.0,
+  "h": 162.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicesuicide.png",
+  "w": 1920.0,
+  "h": 960.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicenotefull.png",
+  "w": 666.0,
+  "h": 1137.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicenote1.png",
+  "w": 666.0,
+  "h": 117.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicenote2.png",
+  "w": 666.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/sidetrails/alicenote3.png",
+  "w": 666.0,
+  "h": 155.0
+ },
+ {
+  "path": "src/assets/timeline/boxborderhorizontal.png",
+  "w": 636.0,
+  "h": 10.0
+ },
+ {
+  "path": "src/assets/timeline/boxbordervertical.png",
+  "w": 10.0,
+  "h": 187.0
+ },
+ {
+  "path": "src/assets/timeline/background.png",
+  "w": 1000.0,
+  "h": 2155.0
+ },
+ {
+  "path": "src/assets/timeline/crack1.png",
+  "w": 771.0,
+  "h": 589.0
+ },
+ {
+  "path": "src/assets/timeline/crack2.png",
+  "w": 777.0,
+  "h": 891.0
+ },
+ {
+  "path": "src/assets/timeline/crack3.png",
+  "w": 649.0,
+  "h": 1086.0
+ },
+ {
+  "path": "src/assets/flashbacks/crimescene.png",
+  "w": 462.0,
+  "h": 566.0
+ },
+ {
+  "path": "src/assets/flashbacks/basement.png",
+  "w": 462.0,
+  "h": 566.0
+ },
+ {
+  "path": "src/assets/flashbacks/valerianbookpage.png",
+  "w": 1944.0,
+  "h": 2247.0
+ },
+ {
+  "path": "src/assets/flashbacks/valerianvictoria.png",
+  "w": 1944.0,
+  "h": 2247.0
+ },
+ {
+  "path": "src/assets/bicyclebox/table.png",
+  "w": 612.0,
+  "h": 1236.0
+ },
+ {
+  "path": "src/assets/suspectboard/therapyreportfull.png",
+  "w": 1426.0,
+  "h": 1878.0
+ },
+ {
+  "path": "src/assets/suspectboard/therapyreport1.png",
+  "w": 1425.0,
+  "h": 315.0
+ },
+ {
+  "path": "src/assets/suspectboard/therapyreport2.png",
+  "w": 1425.0,
+  "h": 348.0
+ },
+ {
+  "path": "src/assets/assistkevin/mapbg.png",
+  "w": 1428.0,
+  "h": 2016.0
+ },
+ {
+  "path": "src/assets/assistkevin/kevin.png",
+  "w": 512.0,
+  "h": 484.0
+ },
+ {
+  "path": "src/assets/assistkevin/bolt.png",
+  "w": 184.0,
+  "h": 245.0
+ },
+ {
+  "path": "src/assets/assistkevin/leaf.png",
+  "w": 199.0,
+  "h": 200.0
+ },
+ {
+  "path": "src/assets/assistkevin/portal.png",
+  "w": 223.0,
+  "h": 198.0
+ },
+ {
+  "path": "src/assets/assistkevin/conundrum.png",
+  "w": 203.0,
+  "h": 183.0
+ },
+ {
+  "path": "src/assets/assistkevin/water.png",
+  "w": 237.0,
+  "h": 167.0
+ },
+ {
+  "path": "src/assets/assistkevin/star.png",
+  "w": 199.0,
+  "h": 207.0
+ },
+ {
+  "path": "src/assets/assistkevin/flower.png",
+  "w": 200.0,
+  "h": 170.0
+ },
+ {
+  "path": "src/assets/assistkevin/maze.png",
+  "w": 248.0,
+  "h": 246.0
+ },
+ {
+  "path": "src/assets/assistkevin/crown.png",
+  "w": 199.0,
+  "h": 142.0
+ },
+ {
+  "path": "src/assets/assistkevin/ring.png",
+  "w": 237.0,
+  "h": 229.0
+ },
+ {
+  "path": "src/assets/assistkevin/mesh.png",
+  "w": 354.0,
+  "h": 208.0
+ },
+ {
+  "path": "src/assets/assistkevin/silence.png",
+  "w": 247.0,
+  "h": 224.0
+ },
+ {
+  "path": "src/assets/assistkevin/crop.png",
+  "w": 184.0,
+  "h": 202.0
+ },
+ {
+  "path": "src/assets/assistkevin/memory.png",
+  "w": 238.0,
+  "h": 208.0
+ },
+ {
+  "path": "src/assets/assistkevin/check.png",
+  "w": 154.0,
+  "h": 177.0
+ },
+ {
+  "path": "src/assets/assistkevin/forest.png",
+  "w": 1083.0,
+  "h": 722.0
+ },
+ {
+  "path": "src/assets/assistkevin/caveentrance.png",
+  "w": 1260.0,
+  "h": 736.0
+ },
+ {
+  "path": "src/assets/assistkevin/caveinside.png",
+  "w": 1800.0,
+  "h": 1200.0
+ },
+ {
+  "path": "src/assets/assistkevin/wallpuzzle.png",
+  "w": 1300.0,
+  "h": 921.0
+ },
+ {
+  "path": "src/assets/assistkevin/doorpuzzle.png",
+  "w": 1315.0,
+  "h": 900.0
+ },
+ {
+  "path": "src/assets/assistkevin/house.png",
+  "w": 1359.0,
+  "h": 1089.0
+ },
+ {
+  "path": "src/assets/assistkevin/frontdoor.png",
+  "w": 1220.0,
+  "h": 839.0
+ },
+ {
+  "path": "src/assets/assistkevin/backdoor.png",
+  "w": 960.0,
+  "h": 641.0
+ },
+ {
+  "path": "src/assets/assistkevin/map.png",
+  "w": 1142.0,
+  "h": 835.0
+ },
+ {
+  "path": "src/assets/assistkevin/chase.png",
+  "w": 1384.0,
+  "h": 923.0
+ },
+ {
+  "path": "src/assets/videos/treehouse.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/zoeynote/puzzleframe.png",
+  "w": 1303.0,
+  "h": 1695.0
+ },
+ {
+  "path": "src/assets/zoeynote/treehouse.png",
+  "w": 1440.0,
+  "h": 2560.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/oneleft.png",
+  "w": 390.0,
+  "h": 266.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/onemiddle.png",
+  "w": 539.0,
+  "h": 261.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/oneright.png",
+  "w": 443.0,
+  "h": 250.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/twoleft.png",
+  "w": 432.0,
+  "h": 314.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/twomiddle.png",
+  "w": 538.0,
+  "h": 322.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/tworight.png",
+  "w": 403.0,
+  "h": 355.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/threeleft.png",
+  "w": 446.0,
+  "h": 419.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/threemiddle.png",
+  "w": 474.0,
+  "h": 432.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/threeright.png",
+  "w": 443.0,
+  "h": 428.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fourleft.png",
+  "w": 444.0,
+  "h": 378.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fourmiddle.png",
+  "w": 504.0,
+  "h": 392.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fourright.png",
+  "w": 434.0,
+  "h": 390.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fiveleft.png",
+  "w": 415.0,
+  "h": 389.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fivemiddle.png",
+  "w": 534.0,
+  "h": 363.0
+ },
+ {
+  "path": "src/assets/zoeynote/note/fiveright.png",
+  "w": 420.0,
+  "h": 342.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/oneleft.png",
+  "w": 443.0,
+  "h": 250.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/onemiddle.png",
+  "w": 539.0,
+  "h": 261.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/oneright.png",
+  "w": 391.0,
+  "h": 266.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/twoleft.png",
+  "w": 403.0,
+  "h": 355.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/twomiddle.png",
+  "w": 538.0,
+  "h": 322.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/tworight.png",
+  "w": 432.0,
+  "h": 314.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/threeleft.png",
+  "w": 443.0,
+  "h": 428.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/threemiddle.png",
+  "w": 474.0,
+  "h": 432.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/threeright.png",
+  "w": 446.0,
+  "h": 419.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fourleft.png",
+  "w": 434.0,
+  "h": 390.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fourmiddle.png",
+  "w": 504.0,
+  "h": 392.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fourright.png",
+  "w": 444.0,
+  "h": 378.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fiveleft.png",
+  "w": 420.0,
+  "h": 342.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fivemiddle.png",
+  "w": 534.0,
+  "h": 363.0
+ },
+ {
+  "path": "src/assets/zoeynote/lily/fiveright.png",
+  "w": 415.0,
+  "h": 389.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote.png",
+  "w": 635.0,
+  "h": 1079.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote1.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote2.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote3.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote4.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote5.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote6.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote7.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote8.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote9.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote10.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/bradnote/bradnote11.png",
+  "w": 1338.0,
+  "h": 2274.0
+ },
+ {
+  "path": "src/assets/sidetrails/federicoid.png",
+  "w": 1008.0,
+  "h": 1472.0
+ },
+ {
+  "path": "src/assets/sidetrails/federiconotefull.png",
+  "w": 966.0,
+  "h": 1274.0
+ },
+ {
+  "path": "src/assets/sidetrails/federiconote1.png",
+  "w": 1998.0,
+  "h": 454.0
+ },
+ {
+  "path": "src/assets/sidetrails/federiconote2.png",
+  "w": 1998.0,
+  "h": 218.0
+ },
+ {
+  "path": "src/assets/sidetrails/federiconote3.png",
+  "w": 1998.0,
+  "h": 315.0
+ },
+ {
+  "path": "src/assets/openings/morphingpolaroid.png",
+  "w": 3240.0,
+  "h": 3240.0
+ },
+ {
+  "path": "src/assets/openings/bushes.png",
+  "w": 799.0,
+  "h": 1253.0
+ },
+ {
+  "path": "src/assets/openings/notification.png",
+  "w": 1381.0,
+  "h": 1034.0
+ },
+ {
+  "path": "src/assets/openings/phone.png",
+  "w": 1514.0,
+  "h": 1146.0
+ },
+ {
+  "path": "src/assets/openings/rose.png",
+  "w": 1381.0,
+  "h": 1273.0
+ },
+ {
+  "path": "src/assets/openings/unknown.png",
+  "w": 445.0,
+  "h": 445.0
+ },
+ {
+  "path": "src/assets/openings/note.png",
+  "w": 573.0,
+  "h": 888.0
+ },
+ {
+  "path": "src/assets/openings/host.png",
+  "w": 1080.0,
+  "h": 798.0
+ },
+ {
+  "path": "src/assets/openings/bicyclebox.png",
+  "w": 1287.0,
+  "h": 1287.0
+ },
+ {
+  "path": "src/assets/openings/bicycle.png",
+  "w": 568.0,
+  "h": 394.0
+ },
+ {
+  "path": "src/assets/openings/bracelets.png",
+  "w": 714.0,
+  "h": 444.0
+ },
+ {
+  "path": "src/assets/openings/treehouse.png",
+  "w": 720.0,
+  "h": 750.0
+ },
+ {
+  "path": "src/assets/openings/oldelm.png",
+  "w": 873.0,
+  "h": 600.0
+ },
+ {
+  "path": "src/assets/openings/kevinzoey.png",
+  "w": 978.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/openings/deletedmessages.png",
+  "w": 891.0,
+  "h": 676.0
+ },
+ {
+  "path": "src/assets/openings/zoeybw.png",
+  "w": 699.0,
+  "h": 881.0
+ },
+ {
+  "path": "src/assets/openings/storybg.png",
+  "w": 800.0,
+  "h": 1500.0
+ },
+ {
+  "path": "src/assets/openings/titlebg.png",
+  "w": 952.0,
+  "h": 1779.0
+ },
+ {
+  "path": "src/assets/treehouse/clock.png",
+  "w": 541.0,
+  "h": 992.0
+ },
+ {
+  "path": "src/assets/treehouse/brook.png",
+  "w": 616.0,
+  "h": 592.0
+ },
+ {
+  "path": "src/assets/treehouse/bridge.png",
+  "w": 665.0,
+  "h": 451.0
+ },
+ {
+  "path": "src/assets/treehouse/boulder.png",
+  "w": 561.0,
+  "h": 408.0
+ },
+ {
+  "path": "src/assets/treehouse/bg.png",
+  "w": 1200.0,
+  "h": 1825.0
+ },
+ {
+  "path": "src/assets/treehouse/road.png",
+  "w": 1200.0,
+  "h": 734.0
+ },
+ {
+  "path": "src/assets/treehouse/cracks.png",
+  "w": 1076.0,
+  "h": 4096.0
+ },
+ {
+  "path": "src/assets/treehouse/flashlight1.png",
+  "w": 288.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/treehouse/flashlight2.png",
+  "w": 288.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/treehouse/flashlight3.png",
+  "w": 288.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/treehouse/flashlight4.png",
+  "w": 288.0,
+  "h": 288.0
+ },
+ {
+  "path": "src/assets/treehouse/tree.png",
+  "w": 1229.0,
+  "h": 1237.0
+ },
+ {
+  "path": "src/assets/treehouse/actualclock.png",
+  "w": 1200.0,
+  "h": 1420.0
+ },
+ {
+  "path": "src/assets/treehouse/actualbrook.png",
+  "w": 2195.0,
+  "h": 970.0
+ },
+ {
+  "path": "src/assets/treehouse/actualbridge.png",
+  "w": 2195.0,
+  "h": 1753.0
+ },
+ {
+  "path": "src/assets/treehouse/actualboulder.png",
+  "w": 2195.0,
+  "h": 971.0
+ },
+ {
+  "path": "src/assets/treehouse/hudflashlight.png",
+  "w": 88.0,
+  "h": 38.0
+ },
+ {
+  "path": "src/assets/treehouse/hudbattery.png",
+  "w": 56.0,
+  "h": 134.0
+ },
+ {
+  "path": "src/assets/treehouse/hudreload.png",
+  "w": 48.0,
+  "h": 54.0
+ },
+ {
+  "path": "src/assets/treehouse/hudrun.png",
+  "w": 108.0,
+  "h": 122.0
+ },
+ {
+  "path": "src/assets/treehouse/battery.png",
+  "w": 93.0,
+  "h": 221.0
+ },
+ {
+  "path": "src/assets/treehouse/gate.png",
+  "w": 2195.0,
+  "h": 970.0
+ },
+ {
+  "path": "src/assets/treehouse/locked.png",
+  "w": 254.0,
+  "h": 314.0
+ },
+ {
+  "path": "src/assets/treehouse/unlocked.png",
+  "w": 238.0,
+  "h": 316.0
+ },
+ {
+  "path": "src/assets/treehouse/lockbig.png",
+  "w": 429.0,
+  "h": 350.0
+ },
+ {
+  "path": "src/assets/treehouse/lockinside.png",
+  "w": 336.0,
+  "h": 225.0
+ },
+ {
+  "path": "src/assets/treehouse/lockpickbase.png",
+  "w": 558.0,
+  "h": 206.0
+ },
+ {
+  "path": "src/assets/treehouse/lockpicktwist.png",
+  "w": 385.0,
+  "h": 35.0
+ },
+ {
+  "path": "src/assets/treehouse/lockpinbg.png",
+  "w": 48.0,
+  "h": 198.0
+ },
+ {
+  "path": "src/assets/treehouse/lockpin.png",
+  "w": 42.0,
+  "h": 18.0
+ },
+ {
+  "path": "src/assets/treehouse/crowbar.png",
+  "w": 188.0,
+  "h": 152.0
+ },
+ {
+  "path": "src/assets/treehouse/treehousefull.png",
+  "w": 1080.0,
+  "h": 1785.0
+ },
+ {
+  "path": "src/assets/treehouse/treehouseclose.png",
+  "w": 1213.0,
+  "h": 2403.0
+ },
+ {
+  "path": "src/assets/treehouse/ladder.png",
+  "w": 411.0,
+  "h": 1420.0
+ },
+ {
+  "path": "src/assets/treehouse/shortrope.png",
+  "w": 404.0,
+  "h": 1355.0
+ },
+ {
+  "path": "src/assets/treehouse/longrope.png",
+  "w": 404.0,
+  "h": 1865.0
+ },
+ {
+  "path": "src/assets/animations/bubbly.lottie",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/treehouse/insideleft.png",
+  "w": 1020.0,
+  "h": 1863.0
+ },
+ {
+  "path": "src/assets/treehouse/insidemiddle.png",
+  "w": 1020.0,
+  "h": 1863.0
+ },
+ {
+  "path": "src/assets/treehouse/insideright.png",
+  "w": 1020.0,
+  "h": 1863.0
+ },
+ {
+  "path": "src/assets/treehouse/trophy.png",
+  "w": 39.0,
+  "h": 58.0
+ },
+ {
+  "path": "src/assets/treehouse/rubiks.png",
+  "w": 108.0,
+  "h": 78.0
+ },
+ {
+  "path": "src/assets/treehouse/clover.png",
+  "w": 86.0,
+  "h": 101.0
+ },
+ {
+  "path": "src/assets/treehouse/cabinetlock.png",
+  "w": 833.0,
+  "h": 1127.0
+ },
+ {
+  "path": "src/assets/treehouse/leftcabinet.png",
+  "w": 644.0,
+  "h": 630.0
+ },
+ {
+  "path": "src/assets/treehouse/leftcabinetempty.png",
+  "w": 644.0,
+  "h": 630.0
+ },
+ {
+  "path": "src/assets/treehouse/rightcabinet.png",
+  "w": 644.0,
+  "h": 630.0
+ },
+ {
+  "path": "src/assets/treehouse/doorlily.png",
+  "w": 2580.0,
+  "h": 2048.0
+ },
+ {
+  "path": "src/assets/treehouse/puzzlenotesmall.png",
+  "w": 516.0,
+  "h": 162.0
+ },
+ {
+  "path": "src/assets/treehouse/puzzlenote.png",
+  "w": 535.0,
+  "h": 774.0
+ },
+ {
+  "path": "src/assets/treehouse/openbox.png",
+  "w": 427.0,
+  "h": 404.0
+ },
+ {
+  "path": "src/assets/treehouse/bookred.png",
+  "w": 43.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/treehouse/bookgreen.png",
+  "w": 43.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/treehouse/bookblue.png",
+  "w": 22.0,
+  "h": 87.0
+ },
+ {
+  "path": "src/assets/treehouse/bookyellow.png",
+  "w": 43.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/treehouse/bookorange.png",
+  "w": 43.0,
+  "h": 173.0
+ },
+ {
+  "path": "src/assets/treehouse/bookselected.png",
+  "w": 64.0,
+  "h": 260.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape1.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape11.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape12.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape13.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape14.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape15.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape2.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape21.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape22.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape23.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape24.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape25.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape26.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape27.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape3.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape31.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape32.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape33.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape34.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape4.png",
+  "w": 300.0,
+  "h": 302.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape41.png",
+  "w": 300.0,
+  "h": 302.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape42.png",
+  "w": 300.0,
+  "h": 302.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape43.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape44.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/shapes/shape45.png",
+  "w": 300.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/treehouse/cradlebase.png",
+  "w": 104.0,
+  "h": 85.0
+ },
+ {
+  "path": "src/assets/treehouse/cradleball.png",
+  "w": 96.0,
+  "h": 496.0
+ },
+ {
+  "path": "src/assets/treehouse/schoolmagazine1.png",
+  "w": 1179.0,
+  "h": 945.0
+ },
+ {
+  "path": "src/assets/treehouse/schoolmagazine2.png",
+  "w": 1179.0,
+  "h": 945.0
+ },
+ {
+  "path": "src/assets/treehouse/schoolmagazine3.png",
+  "w": 1179.0,
+  "h": 945.0
+ },
+ {
+  "path": "src/assets/treehouse/schoolmagazine4.png",
+  "w": 1179.0,
+  "h": 945.0
+ },
+ {
+  "path": "src/assets/treehouse/longdrive.png",
+  "w": 6891.0,
+  "h": 1024.0
+ },
+ {
+  "path": "src/assets/treehouse/car.png",
+  "w": 277.0,
+  "h": 138.0
+ },
+ {
+  "path": "src/assets/treehouse/roadbreak.png",
+  "w": 94.0,
+  "h": 390.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreportfull.png",
+  "w": 742.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreport1.png",
+  "w": 742.0,
+  "h": 40.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreport2.png",
+  "w": 742.0,
+  "h": 40.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreport3.png",
+  "w": 742.0,
+  "h": 40.0
+ },
+ {
+  "path": "src/assets/suspectboard/forensicreportqrcode.png",
+  "w": 90.0,
+  "h": 90.0
+ },
+ {
+  "path": "src/assets/suspectboard/zoeykevinbooth.png",
+  "w": 1339.0,
+  "h": 1000.0
+ },
+ {
+  "path": "src/assets/vernonappointment/entrydoor.png",
+  "w": 1200.0,
+  "h": 2017.0
+ },
+ {
+  "path": "src/assets/vernonappointment/knock.png",
+  "w": 352.0,
+  "h": 408.0
+ },
+ {
+  "path": "src/assets/vernonappointment/doorhandle.png",
+  "w": 386.0,
+  "h": 100.0
+ },
+ {
+  "path": "src/assets/vernonappointment/vernon.png",
+  "w": 506.0,
+  "h": 758.0
+ },
+ {
+  "path": "src/assets/vernonappointment/table.png",
+  "w": 1011.0,
+  "h": 343.0
+ },
+ {
+  "path": "src/assets/vernonappointment/conversationbg.png",
+  "w": 800.0,
+  "h": 300.0
+ },
+ {
+  "path": "src/assets/vernonappointment/colorgray.png",
+  "w": 400.0,
+  "h": 400.0
+ },
+ {
+  "path": "src/assets/vernonappointment/colororange.png",
+  "w": 400.0,
+  "h": 372.0
+ },
+ {
+  "path": "src/assets/vernonappointment/colorblue.png",
+  "w": 400.0,
+  "h": 374.0
+ },
+ {
+  "path": "src/assets/suspectboard/vernonenvelope1big.png",
+  "w": 1169.0,
+  "h": 566.0
+ },
+ {
+  "path": "src/assets/suspectboard/vernonletter.png",
+  "w": 1006.0,
+  "h": 1666.0
+ },
+ {
+  "path": "src/assets/quickdeduce/bg.png",
+  "w": 400.0,
+  "h": 800.0
+ },
+ {
+  "path": "src/assets/quickdeduce/cluebg.png",
+  "w": 404.0,
+  "h": 144.0
+ },
+ {
+  "path": "src/assets/quickdeduce/itembg.png",
+  "w": 174.0,
+  "h": 174.0
+ },
+ {
+  "path": "src/assets/quickdeduce/backbg.png",
+  "w": 270.0,
+  "h": 140.0
+ },
+ {
+  "path": "src/assets/schoolproject/bg.png",
+  "w": 3048.0,
+  "h": 1300.0
+ },
+ {
+  "path": "src/assets/schoolproject/breadboard.png",
+  "w": 1056.0,
+  "h": 2658.0
+ },
+ {
+  "path": "src/assets/schoolproject/diagram.png",
+  "w": 1013.0,
+  "h": 2000.0
+ },
+ {
+  "path": "src/assets/schoolproject/capacitor.png",
+  "w": 137.0,
+  "h": 275.0
+ },
+ {
+  "path": "src/assets/schoolproject/resistor.png",
+  "w": 269.0,
+  "h": 84.0
+ },
+ {
+  "path": "src/assets/schoolproject/led.png",
+  "w": 111.0,
+  "h": 280.0
+ },
+ {
+  "path": "src/assets/schoolproject/timeric.png",
+  "w": 339.0,
+  "h": 219.0
+ },
+ {
+  "path": "src/assets/schoolproject/ldr.png",
+  "w": 142.0,
+  "h": 142.0
+ },
+ {
+  "path": "src/assets/schoolproject/battery.png",
+  "w": 536.0,
+  "h": 986.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualcapacitor1.png",
+  "w": 327.0,
+  "h": 239.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualcapacitor2.png",
+  "w": 275.0,
+  "h": 137.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualresistor1.png",
+  "w": 85.0,
+  "h": 269.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualresistor2.png",
+  "w": 85.0,
+  "h": 269.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualresistor3.png",
+  "w": 269.0,
+  "h": 84.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualled.png",
+  "w": 290.0,
+  "h": 121.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualtimeric.png",
+  "w": 219.0,
+  "h": 339.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualldr.png",
+  "w": 142.0,
+  "h": 142.0
+ },
+ {
+  "path": "src/assets/schoolproject/actualbattery.png",
+  "w": 1030.0,
+  "h": 535.0
+ },
+ {
+  "path": "src/assets/schoolproject/wires.png",
+  "w": 1056.0,
+  "h": 2658.0
+ },
+ {
+  "path": "src/assets/schoolproject/ledon.png",
+  "w": 901.0,
+  "h": 921.0
+ },
+ {
+  "path": "src/assets/examinemagazines/sticky1.png",
+  "w": 455.0,
+  "h": 422.0
+ },
+ {
+  "path": "src/assets/examinemagazines/sticky2.png",
+  "w": 489.0,
+  "h": 490.0
+ },
+ {
+  "path": "src/assets/examinemagazines/sticky3.png",
+  "w": 514.0,
+  "h": 387.0
+ },
+ {
+  "path": "src/assets/examinemagazines/sticky4.png",
+  "w": 467.0,
+  "h": 441.0
+ },
+ {
+  "path": "src/assets/officebreakin/hallwayoff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/hallwayflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/storagedooroff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/storagedoorflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/storageoff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/storageflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/timdooroff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/timdoorflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/timroomoff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/timroomflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxoff.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxflashlight.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxon.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxcloseup.png",
+  "w": 1200.0,
+  "h": 2333.0
+ },
+ {
+  "path": "src/assets/officebreakin/foyer.png",
+  "w": 600.0,
+  "h": 1167.0
+ },
+ {
+  "path": "src/assets/officebreakin/screwdriver.png",
+  "w": 800.0,
+  "h": 647.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxlidwithoutscrews.png",
+  "w": 665.0,
+  "h": 1012.0
+ },
+ {
+  "path": "src/assets/officebreakin/alert.png",
+  "w": 248.0,
+  "h": 248.0
+ },
+ {
+  "path": "src/assets/officebreakin/foyerdoor.png",
+  "w": 634.0,
+  "h": 1426.0
+ },
+ {
+  "path": "src/assets/officebreakin/crutch.png",
+  "w": 646.0,
+  "h": 434.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxinsidebg.png",
+  "w": 769.0,
+  "h": 1165.0
+ },
+ {
+  "path": "src/assets/officebreakin/fuseboxinsideswitch.png",
+  "w": 238.0,
+  "h": 689.0
+ },
+ {
+  "path": "src/assets/officebreakin/screw.png",
+  "w": 146.0,
+  "h": 141.0
+ },
+ {
+  "path": "src/assets/rajanphone/image_1211_cramer.png",
+  "w": 328.0,
+  "h": 328.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss783_browser_yeahscience.png",
+  "w": 320.0,
+  "h": 468.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss124_messages_mom.png",
+  "w": 471.0,
+  "h": 651.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss56_backpage_internetcat.png",
+  "w": 346.0,
+  "h": 168.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss63_browser_swiftle.png",
+  "w": 465.0,
+  "h": 465.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss62_messages_quizclub.png",
+  "w": 471.0,
+  "h": 651.0
+ },
+ {
+  "path": "src/assets/rajanphone/ss245_messages_mom.png",
+  "w": 471.0,
+  "h": 651.0
+ },
+ {
+  "path": "src/assets/rajanphone/snap_512.png",
+  "w": 346.0,
+  "h": 234.0
+ },
+ {
+  "path": "src/assets/rajanphone/wallpaper1.png",
+  "w": 251.0,
+  "h": 544.0
+ },
+ {
+  "path": "src/assets/rajanphone/wallpaper2.png",
+  "w": 251.0,
+  "h": 544.0
+ },
+ {
+  "path": "src/assets/rajanphone/wallpaper3.png",
+  "w": 251.0,
+  "h": 544.0
+ },
+ {
+  "path": "src/assets/rajanphone/wallpaper4.png",
+  "w": 251.0,
+  "h": 544.0
+ },
+ {
+  "path": "src/assets/rajanphone/wallpaper5.png",
+  "w": 251.0,
+  "h": 544.0
+ },
+ {
+  "path": "src/assets/rajanphone/cam_02_02_2023.png",
+  "w": 278.0,
+  "h": 371.0
+ },
+ {
+  "path": "src/assets/rajanphone/wedding_invite_feb_2023.png",
+  "w": 325.0,
+  "h": 434.0
+ },
+ {
+  "path": "src/assets/rajanphone/angry.png",
+  "w": 270.0,
+  "h": 270.0
+ },
+ {
+  "path": "src/assets/rajanphone/ir_tester.png",
+  "w": 428.0,
+  "h": 279.0
+ },
+ {
+  "path": "src/assets/rajanphone/quizigits_logo.png",
+  "w": 269.0,
+  "h": 269.0
+ },
+ {
+  "path": "src/assets/rajanphone/receipt.png",
+  "w": 380.0,
+  "h": 250.0
+ },
+ {
+  "path": "src/assets/rajanphone/updating.png",
+  "w": 600.0,
+  "h": 1064.0
+ },
+ {
+  "path": "src/assets/videos/maxbraceletdrivebg.mp4",
+  "w": null,
+  "h": null
+ },
+ {
+  "path": "src/assets/maxbraceletdrive/interior.png",
+  "w": 870.0,
+  "h": 722.0
+ },
+ {
+  "path": "src/assets/maxbraceletdrive/crackedwindshield.png",
+  "w": 435.0,
+  "h": 504.0
+ },
+ {
+  "path": "src/assets/maxbraceletdrive/steeringwheel.png",
+  "w": 326.0,
+  "h": 326.0
+ },
+ {
+  "path": "src/assets/maxbraceletdrive/map.png",
+  "w": 3750.0,
+  "h": 3750.0
+ },
+ {
+  "path": "src/assets/maxbraceletdrive/controlsbg.png",
+  "w": 124.0,
+  "h": 110.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/fence.png",
+  "w": 1249.0,
+  "h": 692.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/house.jpg",
+  "w": 771.0,
+  "h": 1371.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowzoeybrad.png",
+  "w": 104.0,
+  "h": 161.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowzoeyalone.png",
+  "w": 107.0,
+  "h": 105.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowparty.png",
+  "w": 341.0,
+  "h": 214.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowvaleria.png",
+  "w": 107.0,
+  "h": 105.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowzoeybetty.png",
+  "w": 96.0,
+  "h": 119.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowcar.png",
+  "w": 925.0,
+  "h": 394.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowkyle.png",
+  "w": 227.0,
+  "h": 271.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/windowzoeykevin.png",
+  "w": 341.0,
+  "h": 214.0
+ },
+ {
+  "path": "src/assets/kylehouseoutside/lily.png",
+  "w": 723.0,
+  "h": 1467.0
+ }
+]
