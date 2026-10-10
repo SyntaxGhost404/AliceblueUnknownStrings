@@ -74,7 +74,8 @@ export type GameAction = {
     | 'checkpoint'
     | 'episode'
     | 'unlock'
-    | 'battery';
+    | 'battery'
+    | 'overlay';
   device?: PhoneName;
   delay?: number;
   chatName?: string;
@@ -92,6 +93,9 @@ export type GameAction = {
   forceNavigate?: ForceNavigation;
   text?: string;
   level?: 'low' | 'medium' | 'full' | 'charging';
+  /** `overlay` actions: which game overlay to open (see OVERLAY_KEYS) and its payload. */
+  overlay?: string;
+  data?: any;
   action?: GameAction | null;
 };
 

@@ -37,6 +37,8 @@ export type ChatMessage = {
 export type PhoneData = {
   messages: Record<string, ChatMessage[]>;
   call: CallRecord[];
+  /** Per-app persisted state (read mails, unlocked albums, logins, ...), keyed by app id. */
+  apps?: Record<string, any>;
 };
 
 export type AppsData = Record<PhoneName, PhoneData>;
@@ -118,6 +120,8 @@ function useGlobalState() {
   const [subtitle, setSubtitle] = useState<{ text: string } | null>(null);
   const [fade, setFade] = useState<any>(null);
   const [chat, setChat] = useState<ChatState>({ typing: {}, options: {}, unread: {} });
+  /** Latest story request to open a game overlay; the game navigator consumes it. */
+  const [overlayRequest, setOverlayRequest] = useState<{ key: string; data?: any; at: number } | null>(null);
 
   const chatFocused = useRef<string | null>(null);
   // Chat timestamps follow the in-game clock, not the device clock.
@@ -526,6 +530,12 @@ function useGlobalState() {
             chain();
           }, delay);
           break;
+        case 'overlay':
+          later(() => {
+            if (action.overlay) setOverlayRequest({ key: action.overlay, data: action.data ?? true, at: Date.now() });
+            chain();
+          }, delay);
+          break;
         case 'battery':
           later(() => {
             if (action.level) setBatteryIcon(action.level);
@@ -588,6 +598,18 @@ function useGlobalState() {
     subtitleTimers.current.push(setTimeout(() => setSubtitle(null), at));
   }, [stopSubtitles]);
 
+  /** Merge a patch (or apply an updater) into one app's persisted state on one phone. */
+  const updateAppState = useCallback(
+    (phone: PhoneName, app: string, patch: Record<string, any> | ((prev: any) => any)) => {
+      setAppsData(prev => {
+        const current = prev[phone].apps?.[app] ?? {};
+        const next = typeof patch === 'function' ? patch(current) : { ...current, ...patch };
+        return { ...prev, [phone]: { ...prev[phone], apps: { ...(prev[phone].apps ?? {}), [app]: next } } };
+      });
+    },
+    [],
+  );
+
   const resetProgress = useCallback(async () => {
     timers.current.forEach(clearTimeout);
     timers.current = [];
@@ -626,6 +648,7 @@ function useGlobalState() {
     BGColor, setBGColor, swipeEnabled, setSwipeEnabled, infoOnScreen, setInfoOnScreen,
     forceNavigation, setForceNavigation, batteryIcon, setBatteryIcon, flashback, setFlashback, ping, setPing,
     subtitle, setSubtitle, playSubtitles, stopSubtitles, fade, setFade, timeTravel: null as any,
+    overlayRequest, setOverlayRequest, updateAppState,
     // engine
     triggerAction, promote, showAd, saveData, resetProgress, loadCloudSave,
     chat, chooseOption, setChatFocused, pushNotification, clearNotifications, addCallRecord,

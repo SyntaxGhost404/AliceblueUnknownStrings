@@ -13,7 +13,9 @@ import Desk from '../screens/desk/Desk';
 import HintReminder from '../overlays/HintReminder';
 import Objective from '../overlays/Objective';
 import Toast from '../overlays/Toast';
-import { GameUIContext } from './GameUIContext';
+import GameplayHost from '../overlays/gameplay/GameplayHost';
+import ModalsHost from '../overlays/modals/ModalsHost';
+import { GameUIContext, OVERLAY_KEYS, OverlayKey } from './GameUIContext';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -27,25 +29,25 @@ const screens = I18nManager.isRTL ? ['herphone', 'myphone', 'suspectboard'] : ['
  * plus the overlays that sit on top of all three.
  */
 function GameNavigator() {
-  const { session, toast, hint, swipeEnabled, setSwipeEnabled, soundsEnabled, gameVisible, setGameVisible, timeTravel } =
-    useContext(GlobalContext);
+  const {
+    session,
+    toast,
+    hint,
+    swipeEnabled,
+    setSwipeEnabled,
+    soundsEnabled,
+    gameVisible,
+    setGameVisible,
+    timeTravel,
+    overlayRequest,
+  } = useContext(GlobalContext);
   const { getMainStoryEvent } = useContext(ContentContext);
   const [hideGame, setHideGame] = useState(true);
   const [showNavigator, setHideNavigatorState] = useState(true);
   const [scaleAnim] = useState(() => new Animated.Value(1));
   const [showObjective, setShowObjective] = useState(false);
   const [showHintReminder, setShowHintReminder] = useState(false);
-  const [showCredits, setShowCredits] = useState(false);
-  const [showNewEpisodeModal, setShowNewEpisodeModal] = useState(false);
-  const [showStartNextEpisode, setShowStartNextEpisode] = useState(false);
-  const [showCloudSaves, setShowCloudSaves] = useState(false);
-  const [showResetProgress, setShowResetProgress] = useState(false);
-  const [showLanguage, setShowLanguage] = useState(false);
-  const [showNeedHelp, setShowNeedHelp] = useState(false);
-  const [showTimeline, setShowTimeline] = useState(false);
-  const [floatingNote, setFloatingNote] = useState<any>(null);
-  const [timerData, setTimerData] = useState<any>(null);
-  const [mindPalace, setMindPalace] = useState(false);
+  const [overlays, setOverlays] = useState<Partial<Record<OverlayKey, any>>>({});
   const [longPressUI, setLongPressUI] = useState<any>(null);
   const hintTimer = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -96,28 +98,43 @@ function GameNavigator() {
     };
   }, [hint, session, getMainStoryEvent]);
 
+  const showOverlay = useCallback((key: OverlayKey, data: any = true) => {
+    setOverlays(prev => ({ ...prev, [key]: data }));
+  }, []);
+  const hideOverlay = useCallback((key: OverlayKey) => {
+    setOverlays(prev => ({ ...prev, [key]: false }));
+  }, []);
+  const toggle = (key: OverlayKey) => (value: any) => (value ? showOverlay(key, value) : hideOverlay(key));
+
+  // Story actions can open overlays too ({ app: 'overlay', overlay: 'timeline', data }).
+  useEffect(() => {
+    if (overlayRequest && (OVERLAY_KEYS as readonly string[]).includes(overlayRequest.key)) {
+      showOverlay(overlayRequest.key as OverlayKey, overlayRequest.data);
+    }
+  }, [overlayRequest, showOverlay]);
+
   const ui = {
+    overlays,
+    showOverlay,
+    hideOverlay,
     setShowObjective,
     setShowHintReminder,
-    setShowCredits,
-    setShowNewEpisodeModal,
-    setShowStartNextEpisode,
-    setShowCloudSaves,
-    setShowResetProgress,
-    setShowLanguage,
-    setShowNeedHelp,
-    setShowTimeline,
-    setFloatingNote,
-    setTimerData,
+    setShowCredits: toggle('credits'),
+    setShowNewEpisodeModal: toggle('newEpisodeModal'),
+    setShowStartNextEpisode: toggle('startNextEpisode'),
+    setShowCloudSaves: toggle('cloudSaves'),
+    setShowResetProgress: toggle('resetProgress'),
+    setShowLanguage: toggle('language'),
+    setShowNeedHelp: toggle('needHelp'),
+    setShowTimeline: toggle('timeline'),
+    setFloatingNote: toggle('floatingNote'),
+    setTimerData: toggle('timer'),
     setHideGame,
     setHideNavigator: (hide: boolean) => setHideNavigatorState(!hide),
-    setMindPalace,
+    setMindPalace: toggle('mindPalace'),
     setLongPressUI,
     longPressUI,
   };
-  // Overlays still being ported read these through the context.
-  void [showCredits, showNewEpisodeModal, showStartNextEpisode, showCloudSaves, showResetProgress, showLanguage];
-  void [showNeedHelp, showTimeline, floatingNote, timerData, mindPalace];
 
   return (
     <GameUIContext.Provider value={ui}>
@@ -146,6 +163,8 @@ function GameNavigator() {
         {showHintReminder ? <HintReminder setShowHintReminder={setShowHintReminder} /> : null}
         {toast ? <Toast text={toast} /> : null}
         {showObjective ? <Objective setShowObjective={setShowObjective} /> : null}
+        <GameplayHost />
+        <ModalsHost />
       </Animated.View>
     </GameUIContext.Provider>
   );
