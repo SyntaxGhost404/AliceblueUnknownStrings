@@ -40,7 +40,7 @@ export const deskObjects: DeskObject[] = [
     start: [0, 1, 0],
     end: [0, 1, 0],
     items: ['casereport', 'family', 'studentid', 'zoey'],
-    onEmpty: { app: 'objective', delay: 1200 },
+    onEmpty: { app: 'overlay', overlay: 'prologueEnd', delay: 1200 },
   },
   { name: 'herphone', x: '77%', y: '91%', width: '16.5%', aspectRatio: 1.37, start: [1, 0, 0] },
   { name: 'family', x: '35%', y: '5%', width: '23%', aspectRatio: 0.88, start: [1, 0, 0] },
