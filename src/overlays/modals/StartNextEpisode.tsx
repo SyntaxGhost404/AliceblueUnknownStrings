@@ -61,13 +61,21 @@ export default function StartNextEpisode({ onClose }: { onClose: () => void }) {
           text={`${copy.startEpisode} ${(session?.episode ?? 0) + 1}`}
         />
       </CustomButton>
-      <Animated.View pointerEvents="none" style={[StyleSheet.absoluteFill, { backgroundColor: 'black', opacity: blackAnim }]} />
+      <Animated.View
+        pointerEvents="none"
+        style={[StyleSheet.absoluteFill, { backgroundColor: 'black', opacity: blackAnim }]}
+      />
     </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
-  parentLayout: { ...StyleSheet.absoluteFill, justifyContent: 'center', alignItems: 'center', backgroundColor: 'transparent' },
+  parentLayout: {
+    ...StyleSheet.absoluteFill,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'transparent',
+  },
   button: {
     position: 'absolute',
     bottom: '8%',

@@ -14,7 +14,7 @@ import { isActiveInSession } from '../../content';
 import { photosByDate } from '../../content/mock/gallery';
 import { PhoneName } from '../../content/types';
 import Header from './Header';
-import { photoBlur, photoOpacity, viewParams } from './photoView';
+import { photoBlur, photoOpacity, refImage, viewParams } from './photoView';
 
 const DATE_KEY = 'DD-MM-YYYY';
 
@@ -64,7 +64,7 @@ export default function Home({ phone, navigation, setNotiBarColor }: Props) {
                       style={{ position: 'absolute', top: hotspot.top as any, left: hotspot.left as any }}
                       width={hotspot.width as any}
                       aspectRatio={hotspot.aspectRatio}
-                      source={getAppImage('gallery', hotspot.image)}
+                      source={refImage(hotspot.image)}
                     />
                   ) : null}
                 </View>

@@ -68,15 +68,20 @@ export default function Language({ onClose }: { onClose: () => void }) {
                 disabled={loading || isCurrent || !item.available}
                 style={[
                   styles.button,
-                  { borderColor: selected === item.code ? theme.colors.black3 : 'transparent', opacity: item.available ? 1 : 0.4 },
+                  {
+                    borderColor: selected === item.code ? theme.colors.black3 : 'transparent',
+                    opacity: item.available ? 1 : 0.4,
+                  },
                 ]}
-                onPress={() => setSelected(item.code)}>
+                onPress={() => setSelected(item.code)}
+              >
                 {I18nManager.isRTL ? renderIcon(item, 'left') : null}
                 <CustomText
                   noDefaultMargin
                   bold={isCurrent}
                   color={isCurrent ? theme.colors.white : theme.colors.darkGray}
-                  style={{ marginHorizontal: '4%' }}>
+                  style={{ marginHorizontal: '4%' }}
+                >
                   {item.displayName}
                 </CustomText>
                 {!I18nManager.isRTL ? renderIcon(item, 'right') : null}
@@ -91,12 +96,15 @@ export default function Language({ onClose }: { onClose: () => void }) {
             />
           </View>
         ) : null}
-        {languages.some(l => !l.available) ? <CustomText gray variant="caption" center text={copy.moreLanguages} /> : null}
+        {languages.some(l => !l.available) ? (
+          <CustomText gray variant="caption" center text={copy.moreLanguages} />
+        ) : null}
         <View style={{ flexDirection: 'row', width: '92%', justifyContent: 'center', marginTop: '8%' }}>
           <CustomButton
             disabled={loading || !selected}
             style={[styles.menuButton, { backgroundColor: theme.colors.lightGray, opacity: selected ? 1 : 0.5 }]}
-            onPress={onConfirm}>
+            onPress={onConfirm}
+          >
             <CustomText text={loading ? getGeneral('settings', 'downloading') : copy.confirm} />
           </CustomButton>
         </View>

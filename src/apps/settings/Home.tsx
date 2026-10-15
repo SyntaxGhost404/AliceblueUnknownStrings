@@ -26,7 +26,7 @@ import { GlobalContext } from '../../state/GlobalProvider';
 import { useGameUI } from '../../navigation/GameUIContext';
 import { episodeCount, getEpisode } from '../../content';
 import { getGeneral } from '../../content/general';
-import { PhoneName } from '../../content/types';
+import { PhoneName, Session } from '../../content/types';
 import { SOCIAL_LINKS } from '../../config';
 import { EXTRA_SOCIAL_LINKS, SHARE_MESSAGE, SHOW_SHOP_BANNERS, TRACKER_LINK } from '../../content/mock/settings';
 import pkg from '../../../package.json';
@@ -52,11 +52,14 @@ const openLink = (url: string) => {
   if (url) Linking.openURL(url).catch(() => {});
 };
 
-/** The story has run out of released content (last objective of the last episode). */
-const isAtContentEnd = (session: { episode: number; objective: number } | null) => {
+/** The story has run out of released content (last checkpoint of the last objective of the last episode). */
+const isAtContentEnd = (session: Session | null) => {
   if (!session) return false;
   const last = episodeCount() - 1;
-  return session.episode > last || (session.episode === last && session.objective >= getEpisode(last).objectives.length - 1);
+  if (session.episode !== last) return session.episode > last;
+  const objectives = getEpisode(last).objectives;
+  if (session.objective !== objectives.length - 1) return session.objective > objectives.length - 1;
+  return session.checkpoint >= objectives[session.objective].checkpoints.length - 1;
 };
 
 /** Settings list: shop banners, account, audio switches, support rows, community links, version. */
@@ -194,7 +197,7 @@ export default function Home({ navigation, phone }: Props) {
               color={theme.colors.darkGray}
               variant="caption"
               text={t('track_progress')}
-              style={{ marginRight: '2%' }}
+              style={{ marginRight: '2%', flexShrink: 0 }}
             />
             <SquareArrowOutUpRight size={scale(16)} strokeWidth={scale(1.25)} color={theme.colors.darkGray} />
           </CustomButton>
@@ -237,6 +240,7 @@ const styles = StyleSheet.create({
   },
   leftContainer: { width: '60%', flexDirection: 'row', alignItems: 'center' },
   shop: {
+    width: '100%',
     backgroundColor: '#FFFFFF00',
     padding: '2%',
     borderRadius: scale(40),
@@ -254,12 +258,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     alignSelf: 'center',
     marginVertical: '4%',
-    paddingHorizontal: '3%',
+    paddingHorizontal: scale(10),
     borderRadius: scale(100),
     borderWidth: scale(0.6),
     borderColor: theme.colors.darkGray,
   },
-  socials: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', alignSelf: 'center' },
+  socials: { width: '100%', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', alignSelf: 'center' },
   social: {
     width: '10%',
     aspectRatio: 1,

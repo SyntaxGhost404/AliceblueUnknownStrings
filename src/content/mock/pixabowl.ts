@@ -163,11 +163,11 @@ export const pixabowlPosts: PixabowlPost[] = [
     { user: 'eli', content: '[Placeholder] First comment.' },
     { user: 'casey', content: '[Placeholder] A second comment that is a little longer, to check how it wraps.' },
   ]),
-  post('post2', 'ivy', 'post-techyonic-fan-art-poster', 63000, [
+  post('post2', 'ivy', 'post-party-purple', 63000, [
     { user: 'alex', content: '[Placeholder] Nice one.' },
     { user: 'eli', content: '[Placeholder] Another comment.' },
   ]),
-  post('post3', 'blake', 'post-brad-gymbro', 1301, [
+  post('post3', 'blake', 'post-bicycle', 1301, [
     { user: 'alex', content: '[Placeholder] Comment A.' },
     { user: 'eli', content: '[Placeholder] Comment B.' },
     { user: 'alex', content: '[Placeholder] Comment C.' },
@@ -178,8 +178,8 @@ export const pixabowlPosts: PixabowlPost[] = [
     { user: 'gus', content: '[Placeholder] And a third.' },
   ]),
   post('post5', 'zoey', 'post-zoey-beach', 204, [{ user: 'alex', content: '[Placeholder] Looks great.' }]),
-  post('post6', 'eli', 'post-kyle-cartons', 872, [{ user: 'fern', content: '[Placeholder] Comment.' }]),
-  post('post7', 'ivy', 'post-game-promo3', 38700, [
+  post('post6', 'eli', 'post-jerry-flowers', 872, [{ user: 'fern', content: '[Placeholder] Comment.' }]),
+  post('post7', 'ivy', 'post-party-blue', 38700, [
     { user: 'jude', content: '[Placeholder] Comment on a promo post.' },
     { user: 'hale', content: '[Placeholder] Comment two.' },
   ]),
@@ -187,21 +187,21 @@ export const pixabowlPosts: PixabowlPost[] = [
     { user: 'eli', content: '[Placeholder] Comment.' },
     { user: 'casey', content: '[Placeholder] Another comment.' },
   ]),
-  post('post9', 'gus', 'post-bicycle', 412, []),
-  post('post10', 'zoey', 'post-zoey-lily', 640, [
+  post('post9', 'gus', 'post-jerry-standing', 412, []),
+  post('post10', 'zoey', 'post-betty-pool', 640, [
     { user: 'alex', content: '[Placeholder] Comment.' },
     { user: 'kit', content: '[Placeholder] Another comment.' },
   ]),
-  post('post11', 'jude', 'post-party-blue', 322, [{ user: 'kit', content: '[Placeholder] Comment.' }]),
+  post('post11', 'jude', 'post-party-purple', 322, [{ user: 'kit', content: '[Placeholder] Comment.' }]),
   post('post12', 'alex', 'post-betty-wine', 10201, [
     { user: 'eli', content: '[Placeholder] Comment.' },
     { user: 'gus', content: '[Placeholder] Comment.' },
   ]),
   // These two only show once the story reaches the second objective of episode 1.
-  post('post13', 'kit', 'post-zoey-zac', 530, [{ user: 'zoey', content: '[Placeholder] A late comment.' }], {
+  post('post13', 'kit', 'post-betty-bed-coffee', 530, [{ user: 'zoey', content: '[Placeholder] A late comment.' }], {
     start: [1, 1, 0],
   }),
-  post('post14', 'hale', 'post-meme-tbrpg', 212, [{ user: 'casey', content: '[Placeholder] Comment.' }], {
+  post('post14', 'hale', 'post-bicycle', 212, [{ user: 'casey', content: '[Placeholder] Comment.' }], {
     start: [1, 1, 0],
   }),
 ];

@@ -38,7 +38,8 @@ export default function FAQItem({ index, scrollRef, last, data, expanded, onQues
       onLayout={(e: LayoutChangeEvent) => setY(e.nativeEvent.layout.y)}
       activeOpacity={1}
       style={[styles.faqItem, { borderBottomWidth: last ? 0 : scale(2) }]}
-      onPress={onPress}>
+      onPress={onPress}
+    >
       <View style={styles.faqItemQuestion}>
         <CustomText
           style={{ width: '85%' }}
@@ -47,7 +48,10 @@ export default function FAQItem({ index, scrollRef, last, data, expanded, onQues
           text={`${index + 1}. ${data.question}`}
         />
         <Animated.View
-          style={{ transform: [{ rotate: rotation.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '180deg'] }) }] }}>
+          style={{
+            transform: [{ rotate: rotation.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '180deg'] }) }],
+          }}
+        >
           <ChevronDown color={theme.colors.mediumGray} strokeWidth={scale(1)} />
         </Animated.View>
       </View>

@@ -13,7 +13,11 @@ export default function useImageAspect(source: ImageSourcePropType | undefined) 
       setAspect(0);
       return;
     }
-    const resolved = Image.resolveAssetSource(source);
+    // react-native-web has no resolveAssetSource: its sources are already `{ uri }` objects.
+    const resolved =
+      typeof Image.resolveAssetSource === 'function'
+        ? Image.resolveAssetSource(source)
+        : (source as { uri?: string; width?: number; height?: number });
     if (resolved?.width && resolved?.height) {
       setAspect(resolved.width / resolved.height);
       return;

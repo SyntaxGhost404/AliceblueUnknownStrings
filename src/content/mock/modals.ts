@@ -14,12 +14,12 @@ export const credits: { creators: CreditPerson[]; music: CreditTrack[]; voiceove
     { name: 'Placeholder Name', link: '' },
   ],
   music: [
-    { name: 'Placeholder Track A', artist: 'Placeholder Artist', link: '' },
-    { name: 'Placeholder Track B', artist: 'Placeholder Artist', link: '' },
-    { name: 'Placeholder Track C', artist: 'Placeholder Artist', link: '' },
-    { name: 'Placeholder Track D', artist: 'Placeholder Artist', link: '' },
-    { name: 'Placeholder Track E', artist: 'Placeholder Artist', link: '' },
-    { name: 'Placeholder Track F', artist: 'Placeholder Artist', link: '' },
+    { name: 'Placeholder Track A', artist: 'Artist A', link: '' },
+    { name: 'Placeholder Track B', artist: 'Artist B', link: '' },
+    { name: 'Placeholder Track C', artist: 'Artist C', link: '' },
+    { name: 'Placeholder Track D', artist: 'Artist D', link: '' },
+    { name: 'Placeholder Track E', artist: 'Artist E', link: '' },
+    { name: 'Placeholder Track F', artist: 'Artist F', link: '' },
   ],
   voiceovers: [
     { name: 'Character A', artist: 'Placeholder Name' },
@@ -52,7 +52,7 @@ export const languages: LanguageOption[] = [
   { code: 'en', displayName: 'English', available: true },
   { code: 'ar', displayName: 'اَلْعَرَبِيَّةُ', rtl: true, available: false },
   { code: 'po', displayName: 'Portuguese', available: false },
-  { code: 'es', displayName: 'Spanish', available: false },
+  { code: 'es', displayName: 'Spanish', available: true },
   { code: 'tu', displayName: 'Türkçe', available: false },
 ];
 
@@ -82,8 +82,7 @@ export const copy = {
   moreLanguages: 'More languages coming soon.',
   resetting: 'Resetting progress...',
   prologue: 'Prologue',
-  episode: 'Episode',
-  trail: 'Trail',
+  sidetrail: 'Sidetrail',
   cloud: {
     linkAccount: 'LINK ACCOUNT',
     linkedAccount: 'LINKED ACCOUNT',
@@ -104,10 +103,18 @@ export const copy = {
     conflict: 'Saved game data with different progress found on the cloud. Select the data you wish to use and sync.',
     local: 'Local',
     cloud: 'Cloud',
-    mainStory: 'Main Story',
     sync: 'Sync',
-    cancel: 'Cancel',
     google: 'Google',
     apple: 'Apple',
   },
 };
+
+/** "A", "A and B", "A, B, and C" — the list in "Resetting Episode 1 will also wipe ...". */
+export function joinList(items: string[]) {
+  if (items.length <= 1) return items.join('');
+  const last = items[items.length - 1];
+  const rest = items.slice(0, -1);
+  return `${rest.join(', ')}${rest.length === 1 ? '' : ','} and ${last}`;
+}
+
+export const wipeCaption = (name: string, others: string[]) => `Resetting ${name} will also wipe ${joinList(others)}.`;

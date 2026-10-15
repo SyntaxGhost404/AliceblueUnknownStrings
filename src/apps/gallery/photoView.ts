@@ -1,3 +1,4 @@
+import { getAppImage } from '../../assets/images';
 import { GalleryPhoto, findPhoto } from '../../content/mock/gallery';
 
 /** Edit state at 50 means "untouched" for the contrast and blur tools. */
@@ -31,3 +32,9 @@ export const viewParams = (photo: GalleryPhoto): ImageViewParams => ({
   darken: photo.darken,
   hotspot: photo.hotspot,
 });
+
+/** Picture for an `<asset folder>/<asset key>` reference. */
+export const refImage = (ref: string) => {
+  const [folder, key] = ref.split('/');
+  return getAppImage(folder, key);
+};

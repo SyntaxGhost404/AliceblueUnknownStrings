@@ -36,8 +36,18 @@ export default function NewEpisodeModal({ onClose }: { onClose: () => void }) {
                 resizeMode="contain"
                 source={icons[item.key]}
               />
-              <CustomText variant="text" accent style={{ fontFamily: 'JosefinSans-Regular', marginBottom: '3%' }} text={item.name}>
-                <CustomText variant="text" white style={{ fontFamily: 'JosefinSans-Regular' }} text={' - ' + item.description} />
+              <CustomText
+                variant="text"
+                accent
+                style={{ fontFamily: 'JosefinSans-Regular', marginBottom: '3%' }}
+                text={item.name}
+              >
+                <CustomText
+                  variant="text"
+                  white
+                  style={{ fontFamily: 'JosefinSans-Regular' }}
+                  text={' - ' + item.description}
+                />
               </CustomText>
             </CustomButton>
           ))}

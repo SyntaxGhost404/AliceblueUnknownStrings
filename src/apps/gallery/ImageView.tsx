@@ -17,7 +17,7 @@ import { PhoneName } from '../../content/types';
 import useImageAspect from '../mail/useImageAspect';
 import BlurOverlay from './BlurOverlay';
 import Header from './Header';
-import { NEUTRAL, photoOpacity, resolvePhoto } from './photoView';
+import { NEUTRAL, photoOpacity, refImage, resolvePhoto } from './photoView';
 
 const { width: W, height: H } = Dimensions.get('screen');
 const MAX_HEIGHT = H * 0.4;
@@ -152,7 +152,7 @@ export default function ImageView({ phone, route, setNotiBarColor }: Props) {
             <Animated.Image
               style={{ width: '100%', height: '100%', opacity: pulse }}
               resizeMode="contain"
-              source={getAppImage('gallery', hotspot.image) as any}
+              source={refImage(hotspot.image) as any}
             />
           </CustomButton>
         ) : null}

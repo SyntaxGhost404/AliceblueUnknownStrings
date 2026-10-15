@@ -11,7 +11,8 @@ export type GalleryKey = keyof typeof assets.gallery;
 
 /** Pulsing spot over a photo (a clue that only exists while the story is in its window). */
 export type PhotoHotspot = {
-  image: GalleryKey;
+  /** Overlay picture as `<asset folder>/<asset key>`. */
+  image: string;
   top: string;
   left: string;
   width: string;
@@ -64,11 +65,12 @@ export const photosByDate: Record<string, GalleryPhoto[]> = {
     photo('photo16', 'bracelets'),
     photo('photo17', 'tree'),
     // Mirrored: the flip tool turns it back.
-    photo('photo18', 'fortune-cookie', { mirror: true, caption: '[Placeholder] A mirrored photo: try the flip tool' }),
+    photo('photo18', 'zoey-beauty', { mirror: true, caption: '[Placeholder] A mirrored photo: try the flip tool' }),
   ],
   '15-12-2022': [
-    photo('photo19', 'counselor-desk', {
-      hotspot: { image: 'counselor-number', top: '38.3%', left: '14.4%', width: '67.96%', aspectRatio: 2.02, start: [1, 1, 0] },
+    // Clue spot: pulses and can be tapped from the second objective of episode 1 (gather id `gallery:photo19`).
+    photo('photo19', 'jerry-in-arms', {
+      hotspot: { image: 'mail/partyinviteinfo', top: '30%', left: '32%', width: '36%', aspectRatio: 0.99, start: [1, 1, 0] },
     }),
     photo('photo20', 'jerry-pillow'),
   ],
@@ -93,7 +95,7 @@ export const photosByDate: Record<string, GalleryPhoto[]> = {
 
 /** Photos in the hidden album behind the pattern lock. */
 export const hiddenPhotos: GalleryPhoto[] = [
-  photo('hidden1', 'betty-vomit', { caption: '[Placeholder] A photo kept in the hidden album' }),
+  photo('hidden1', 'jerry-head', { caption: '[Placeholder] A photo kept in the hidden album' }),
 ];
 
 /** Every photo by id, for deep links such as `{ appScreen: 'imageview', data: { id: 'photo3' } }`. */

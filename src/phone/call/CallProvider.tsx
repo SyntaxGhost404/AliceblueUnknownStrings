@@ -1,6 +1,7 @@
 import React, { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import moment from 'moment';
 import { createSound, GameSound, playSound } from '../../audio/sound';
+import { MUSIC_VOLUME, useMusic } from '../../audio/MusicProvider';
 import { GlobalContext } from '../../state/GlobalProvider';
 import { getCallScript, getObjective } from '../../content';
 import contacts from '../../content/mock/contacts';
@@ -41,6 +42,11 @@ export function getCallName(contact: string | undefined, fallback = '') {
   return (contact && allContacts[contact]?.name) || fallback;
 }
 
+/** Phone number of a contact key. */
+export function getCallNumber(contact: string | undefined) {
+  return contact ? allContacts[contact]?.number : undefined;
+}
+
 /** Ticks once a second while the call is connected; resets when it ends. */
 function CallElapsedTimeProvider({ children }: { children: React.ReactNode }) {
   const { ongoing, status } = useContext(CallContext);
@@ -71,8 +77,9 @@ export function CallProvider({ phone, children }: { phone: PhoneName; children: 
   const [status, setStatus] = useState<CallStatus>('idle');
   const dialtone = useRef<GameSound | null>(null);
   const timers = useRef<{ connect?: ReturnType<typeof setTimeout>; fail?: ReturnType<typeof setTimeout>; reset?: ReturnType<typeof setTimeout> }>({});
-  const current = useRef({ ongoing, status });
-  current.current = { ongoing, status };
+  const music = useMusic();
+  const current = useRef({ ongoing, status, music });
+  current.current = { ongoing, status, music };
 
   const stopDialtone = useCallback(() => {
     dialtone.current?.stop();
@@ -91,6 +98,7 @@ export function CallProvider({ phone, children }: { phone: PhoneName; children: 
     () => () => {
       stopDialtone();
       clearTimers();
+      if (current.current.ongoing) current.current.music?.setVolume(MUSIC_VOLUME);
     },
     [stopDialtone, clearTimers],
   );
@@ -101,6 +109,7 @@ export function CallProvider({ phone, children }: { phone: PhoneName; children: 
       stopDialtone();
       clearTimers();
       setStatus('ended');
+      current.current.music?.setVolume(MUSIC_VOLUME);
       if (soundsEnabled && !silent) playSound('hangup.mp3');
       timers.current.reset = setTimeout(() => {
         setMode('app');
@@ -117,6 +126,7 @@ export function CallProvider({ phone, children }: { phone: PhoneName; children: 
       if (current.current.ongoing && current.current.status !== 'ended') return;
       clearTimers();
       stopDialtone();
+      current.current.music?.setVolume(0);
       const contact = findCallContact(number);
       if (type === 'outgoing' && soundsEnabled) {
         dialtone.current = createSound('dialtone.mp3', s => {

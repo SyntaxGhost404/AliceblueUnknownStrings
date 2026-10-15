@@ -145,5 +145,22 @@ export const calls: Record<PhoneName, Record<string, Record<string, CallScriptX>
       },
     },
   },
-  herphone: {},
+  // Zoey's phone cannot place calls, but a call that comes in can still be answered.
+  herphone: {
+    zoeysmom: {
+      generic: {
+        method: 'automated',
+        lines: [],
+        states: {
+          '#0': {
+            lines: [
+              { text: '[Placeholder] Hi sweetheart, it is me. Call me back when you can.', duration: 3200 },
+              { text: '[Placeholder] Love you, bye!', duration: 1600 },
+            ],
+            end: true,
+          },
+        },
+      },
+    },
+  },
 };
