@@ -1,206 +1,184 @@
-import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import moment from 'moment';
-import { createSound, GameSound } from '../../audio/sound';
+import { createSound, GameSound, playSound } from '../../audio/sound';
 import { GlobalContext } from '../../state/GlobalProvider';
-import { getCallScript, getProfileName } from '../../content';
+import { getCallScript, getObjective } from '../../content';
 import contacts from '../../content/mock/contacts';
-import { CallLine, CallScript, PhoneName } from '../../content/types';
+import { callContacts } from '../../content/mock/callHistory';
+import { CallScriptX } from '../../content/mock/callTypes';
+import { PhoneName } from '../../content/types';
+import { DATE_FORMAT } from '../../utils/date';
+import { CallInstance, toInstance } from './callScript';
+import {
+  CallContext,
+  CallContextValue,
+  CallElapsedTimeContext,
+  CallMode,
+  CallStatus,
+  CallType,
+  getFormattedTime,
+  OngoingCall,
+} from './callContext';
+import { CallStateProvider } from './CallStateProvider';
 
-export type CallStatus = 'idle' | 'calling' | 'ongoing' | 'ended';
-export type CallType = 'incoming' | 'outgoing';
-export type OngoingCall = { name: string; number: string; contact?: string; type: CallType };
-export type Caption = { speaker?: string; text: string } | null;
-export type CallOption = NonNullable<CallScript['options']>[number];
+export { CallContext, getFormattedTime };
+export type { CallStatus, CallType, CallMode, OngoingCall, Caption } from './callContext';
 
-export type CallState = {
-  ongoing: OngoingCall | null;
-  /** `app` while the call screen is open, `floating` once minimised to the call bubble. */
-  mode: 'app' | 'floating';
-  setMode: (mode: 'app' | 'floating') => void;
-  callData: CallScript | null;
-  status: CallStatus;
-  /** Line being spoken right now. */
-  caption: Caption;
-  /** Seconds since the call connected. */
-  elapsed: number;
-  options: CallOption[] | null;
-  chooseOption: (index: number) => void;
-  startCall: (number: string, type: CallType) => void;
-  endCall: () => void;
-};
+const NO_ANSWER_TIME = 2000;
+const RING_TIME = 2500;
+const RESET_TIME = 2500;
 
-export const CallContext = createContext<CallState>({
-  ongoing: null,
-  mode: 'app',
-  setMode: () => {},
-  callData: null,
-  status: 'idle',
-  caption: null,
-  elapsed: 0,
-  options: null,
-  chooseOption: () => {},
-  startCall: () => {},
-  endCall: () => {},
-});
+const allContacts: Record<string, { name: string; number: string }> = { ...contacts, ...callContacts };
 
-/** "m:ss" timer used on the call screen and the call bubble. */
-export function getFormattedTime(seconds: number) {
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s < 10 ? '0' : ''}${s}`;
+/** Contact key for a dialled number (a contact key itself is accepted too). */
+export function findCallContact(numberOrKey: string) {
+  if (allContacts[numberOrKey]) return numberOrKey;
+  return Object.keys(allContacts).find(key => !!allContacts[key].number && allContacts[key].number === numberOrKey);
 }
 
-let dialtone: GameSound | null = null;
+/** Display name for a contact key. */
+export function getCallName(contact: string | undefined, fallback = '') {
+  return (contact && allContacts[contact]?.name) || fallback;
+}
+
+/** Ticks once a second while the call is connected; resets when it ends. */
+function CallElapsedTimeProvider({ children }: { children: React.ReactNode }) {
+  const { ongoing, status } = useContext(CallContext);
+  const [elapsed, setElapsed] = useState(0);
+
+  useEffect(() => {
+    if (!ongoing || status !== 'talking') return;
+    const tick = setInterval(() => setElapsed(e => e + 1), 1000);
+    return () => {
+      clearInterval(tick);
+      setElapsed(0);
+    };
+  }, [ongoing, status]);
+
+  const value = useMemo(() => ({ elapsedTime: getFormattedTime(elapsed) }), [elapsed]);
+  return <CallElapsedTimeContext.Provider value={value}>{children}</CallElapsedTimeContext.Provider>;
+}
 
 /**
  * Per-phone call engine: dial tone while ringing out, then the scripted conversation once
- * connected (each spoken line becomes the live caption), timed reply options, the hang-up
- * tone and a short "Call ended" beat before the call screen closes.
+ * connected, the hang-up tone and a short "ended" beat before the call screen closes.
  */
 export function CallProvider({ phone, children }: { phone: PhoneName; children: React.ReactNode }) {
-  const { session, setAppsData, soundsEnabled, triggerAction } = useContext(GlobalContext);
+  const { session, soundsEnabled, addCallRecord, triggerAction } = useContext(GlobalContext);
   const [ongoing, setOngoing] = useState<OngoingCall | null>(null);
-  const [mode, setMode] = useState<'app' | 'floating'>('app');
-  const [callData, setCallData] = useState<CallScript | null>(null);
+  const [mode, setMode] = useState<CallMode>('app');
+  const [instance, setInstance] = useState<CallInstance | null>(null);
   const [status, setStatus] = useState<CallStatus>('idle');
-  const [caption, setCaption] = useState<Caption>(null);
-  const [elapsed, setElapsed] = useState(0);
-  const [options, setOptions] = useState<CallOption[] | null>(null);
-  const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const dialtone = useRef<GameSound | null>(null);
+  const timers = useRef<{ connect?: ReturnType<typeof setTimeout>; fail?: ReturnType<typeof setTimeout>; reset?: ReturnType<typeof setTimeout> }>({});
+  const current = useRef({ ongoing, status });
+  current.current = { ongoing, status };
 
-  const clearTimers = () => {
-    timers.current.forEach(clearTimeout);
-    timers.current = [];
-  };
-  const later = (fn: () => void, ms: number) => timers.current.push(setTimeout(fn, ms));
+  const stopDialtone = useCallback(() => {
+    dialtone.current?.stop();
+    dialtone.current?.release();
+    dialtone.current = null;
+  }, []);
+
+  const clearTimers = useCallback(() => {
+    clearTimeout(timers.current.connect);
+    clearTimeout(timers.current.fail);
+    clearTimeout(timers.current.reset);
+    timers.current = {};
+  }, []);
 
   useEffect(
     () => () => {
-      dialtone?.release();
+      stopDialtone();
       clearTimers();
     },
-    [],
+    [stopDialtone, clearTimers],
   );
 
-  useEffect(() => {
-    if (status !== 'ongoing') return;
-    const tick = setInterval(() => setElapsed(e => e + 1), 1000);
-    return () => clearInterval(tick);
-  }, [status]);
-
-  const endCall = useCallback(() => {
-    dialtone?.release();
-    dialtone = null;
-    clearTimers();
-    setCaption(null);
-    setOptions(null);
-    setStatus('ended');
-    if (soundsEnabled) {
-      createSound('hangup.mp3', s => {
-        if (s !== 'error') s.play(() => s.release());
-      });
-    }
-    later(() => {
-      setMode('app');
-      setOngoing(null);
-      setCallData(null);
-      setStatus('idle');
-      setElapsed(0);
-    }, 2500);
-  }, [soundsEnabled]);
-
-  const speak = useCallback((lines: CallLine[], speakerFallback: string | undefined, then: () => void) => {
-    let at = 0;
-    lines.forEach(line => {
-      later(() => setCaption({ speaker: line.speaker ?? speakerFallback, text: line.text }), at);
-      at += line.duration;
-    });
-    later(() => {
-      setCaption(null);
-      then();
-    }, at);
-  }, []);
+  const endCall = useCallback(
+    (silent?: boolean) => {
+      if (!current.current.ongoing || current.current.status === 'ended') return;
+      stopDialtone();
+      clearTimers();
+      setStatus('ended');
+      if (soundsEnabled && !silent) playSound('hangup.mp3');
+      timers.current.reset = setTimeout(() => {
+        setMode('app');
+        setOngoing(null);
+        setInstance(null);
+        setStatus('idle');
+      }, RESET_TIME);
+    },
+    [soundsEnabled, stopDialtone, clearTimers],
+  );
 
   const startCall = useCallback(
     (number: string, type: CallType) => {
+      if (current.current.ongoing && current.current.status !== 'ended') return;
       clearTimers();
-      const contact = Object.keys(contacts).find(key => contacts[key].number === number);
+      stopDialtone();
+      const contact = findCallContact(number);
       if (type === 'outgoing' && soundsEnabled) {
-        dialtone = createSound('dialtone.mp3', s => {
+        dialtone.current = createSound('dialtone.mp3', s => {
           if (s === 'error') return;
+          if (dialtone.current !== s) {
+            s.release();
+            return;
+          }
           s.setNumberOfLoops(-1);
           s.play();
         });
       }
-      setOngoing({ name: contact ? getProfileName(contact) : number, number, contact, type });
+      const name = getCallName(contact, number);
+      setMode('app');
+      setInstance(null);
+      setOngoing({ name, number, contact, type });
       setStatus('calling');
-      setElapsed(0);
-      const script = session ? getCallScript(phone, contact, session) : null;
-      setCallData(script);
 
+      const script = session && contact ? (getCallScript(phone, contact, session) as CallScriptX | null) : null;
       if (!script) {
         // Nobody picks up.
-        later(() => {
-          dialtone?.release();
-          dialtone = null;
+        timers.current.fail = setTimeout(() => {
+          stopDialtone();
           endCall();
-        }, 2000);
+        }, NO_ANSWER_TIME);
         return;
       }
 
-      later(
+      const next = toInstance(script);
+      timers.current.connect = setTimeout(
         () => {
-          dialtone?.release();
-          dialtone = null;
-          if (type === 'outgoing' && !script.dontSave) {
-            setAppsData(prev => ({
-              ...prev,
-              [phone]: {
-                ...prev[phone],
-                call: [
-                  {
-                    name: contact ? getProfileName(contact) : number,
-                    contact,
-                    number,
-                    time: '',
-                    timestamp: moment().format(),
-                    type: 'outgoing',
-                  },
-                  ...prev[phone].call,
-                ],
-              },
-            }));
+          stopDialtone();
+          if (type === 'outgoing' && !next.dontSave) {
+            addCallRecord(phone, {
+              name,
+              contact,
+              number,
+              time: (session && getObjective(session)?.date) || moment().format(DATE_FORMAT),
+              timestamp: moment().format(),
+              type: 'outgoing',
+            });
           }
-          setStatus('ongoing');
-          if (script.action) triggerAction(script.action);
-          speak(script.lines, contact, () => {
-            if (script.options?.length) setOptions(script.options);
-            else later(endCall, 600);
-          });
+          setInstance(next);
+          setStatus('talking');
+          if (next.action) triggerAction(next.action);
         },
-        type === 'incoming' ? 0 : script.delay ?? 2500,
+        type === 'incoming' ? 0 : next.delay ?? RING_TIME,
       );
     },
-    [session, phone, soundsEnabled, endCall, setAppsData, speak, triggerAction],
+    [session, phone, soundsEnabled, endCall, addCallRecord, triggerAction, stopDialtone, clearTimers],
   );
 
-  const chooseOption = useCallback(
-    (index: number) => {
-      const option = options?.[index];
-      if (!option) return;
-      setOptions(null);
-      speak(option.lines, ongoing?.contact, () => {
-        if (option.action) triggerAction(option.action);
-        later(endCall, 600);
-      });
-    },
-    [options, ongoing, speak, triggerAction, endCall],
+  const value = useMemo<CallContextValue>(
+    () => ({ ongoing, mode, setMode, instance, status, startCall, endCall }),
+    [ongoing, mode, instance, status, startCall, endCall],
   );
 
   return (
-    <CallContext.Provider
-      value={{ ongoing, mode, setMode, callData, status, caption, elapsed, options, chooseOption, startCall, endCall }}>
-      {children}
+    <CallContext.Provider value={value}>
+      <CallElapsedTimeProvider>
+        <CallStateProvider>{children}</CallStateProvider>
+      </CallElapsedTimeProvider>
     </CallContext.Provider>
   );
 }
