@@ -1,10 +1,23 @@
-import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
+import React, { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { AppState } from 'react-native';
 import { createSound, GameSound } from './sound';
 import { GlobalContext } from '../state/GlobalProvider';
 import { isMusicOn } from '../content';
 
-export const MusicContext = createContext<null>(null);
+/** Score controls, as in the reference build: calls and voiced diary pages duck the music. */
+export type MusicControls = {
+  music: { setVolume: (volume: number) => void };
+  setVolume: (volume: number) => void;
+  playMusic: () => void;
+  pauseMusic: () => void;
+};
+
+/** Normal score volume; `setVolume(MUSIC_VOLUME)` restores it after ducking. */
+export const MUSIC_VOLUME = 0.1;
+
+export const MusicContext = createContext<MusicControls | null>(null);
+
+export const useMusic = () => useContext(MusicContext);
 
 /**
  * Background score: a single quiet loop that plays during the parts of the story that
@@ -19,7 +32,7 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const sound = createSound('lexin.mp3', s => {
       if (s === 'error') return;
-      s.setVolume(0.1);
+      s.setVolume(MUSIC_VOLUME);
       s.setNumberOfLoops(-1);
       setLoaded(true);
     });
@@ -52,5 +65,17 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session, musicEnabled, loaded]);
 
-  return <MusicContext.Provider value={null}>{children}</MusicContext.Provider>;
+  const controls = useMemo<MusicControls>(() => {
+    const setVolume = (volume: number) => music.current?.setVolume(volume);
+    return {
+      music: { setVolume },
+      setVolume,
+      playMusic: () => {
+        if (musicEnabled && session && isMusicOn(session)) music.current?.play();
+      },
+      pauseMusic: () => music.current?.pause(),
+    };
+  }, [musicEnabled, session]);
+
+  return <MusicContext.Provider value={controls}>{children}</MusicContext.Provider>;
 }
